@@ -1,0 +1,18 @@
+/**
+ * 树表
+ */
+.unieap .u-grid-treegrid-minus{
+	background: url(../images/grid/group/minus.gif);
+}
+.unieap .u-grid-treegrid-plus{
+	background: url(../images/grid/group/plus.gif);
+}
+.unieap .u-grid-treegrid-closedIcon-default{
+	background:url("../images/tree/folderClosed.gif") no-repeat;
+}
+.unieap .u-grid-treegrid-openedIcon-default{
+	background:url("../images/tree/folderOpened.gif") no-repeat;
+}
+.unieap .u-grid-treegrid-leafIcon-default{
+	background:url("../images/tree/leaf.gif") no-repeat;
+}

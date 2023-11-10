@@ -1,0 +1,46 @@
+.unieap .u-menu-item{
+	background-color:#f7f7f7;
+}
+	
+.unieap .u-menu-itemHover{
+	background-color: #d1dded !important; 
+	color:#000000;
+}
+.unieap .u-menu-itemDisabled{
+	color:gray !important;
+}
+.unieap .u-menu-separator{
+	background-color:#f7f7f7;
+}
+.unieap .u-menu-separator .left{
+	background-color:#f0f0f0 ;
+	border-bottom: 1px solid #e0e0e0;
+}
+.unieap .u-menu-separator .middle{
+	border-bottom: 1px solid #e0e0e0;
+}
+.unieap .u-menu-separator .right{
+	border-bottom: 1px solid #e0e0e0;
+}
+.unieap .u-menu-item-separator{
+	background-color:#e0e0e0;
+}
+.unieap .u-menu-itemLeft{
+	background-color : #f0f0f0;
+	border-right :1px solid #e0e0e0;
+}
+.unieap .u-menu-dateIcon{
+	background:url('../form/calendar/images/calendar.gif');
+}
+.unieap .u-menu-expandEnabled{
+	background:url('../images/menu/menu-parent.gif') no-repeat center right; 
+} 
+.dj_ie6 .unieap .u-menu-expandEnabled {
+	background:url('../images/menu/menu-parent.gif') no-repeat center right; 
+}
+.unieap .u-menu-expandDisabled{
+	background:url('../images/menu/menu-parent-disabled.gif') no-repeat center right; 
+} 
+.dj_ie6 .unieap .u-menu-expandDisabled {
+	background:url('../images/menu/menu-parent-disabled.gif') no-repeat center right; 
+}

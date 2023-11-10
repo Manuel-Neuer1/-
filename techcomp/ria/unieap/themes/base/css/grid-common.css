@@ -1,0 +1,308 @@
+/**
+ * grid的基本样式
+ */
+.unieap .u-grid {
+	font-size: 12px;
+	overflow:hidden;
+	position: relative;
+	border:0px;
+	
+}
+
+
+/* master header */
+.unieap .u-grid-master-header {
+	table-layout: fixed;
+	width: 100%;
+}
+
+/* master view */
+.unieap .u-grid-master-views {
+	table-layout: fixed;
+	width: 100%;
+}
+
+
+.unieap .u-grid-master-foot{
+	padding:4px 7px 4px 7px;
+	font:11px verdana;
+}
+.unieap .u-grid-master-foot .express{
+}
+
+
+.unieap .u-grid-view-cell{
+	position:relative;
+	width:100%;
+	height:100%;
+	padding:0px;
+}
+/**
+* 锁定视图横向滚动条样式
+*/
+.unieap .u-grid-noscrollbar{
+	width:100%;
+	height:17px;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+
+.unieap .u-grid-header {
+	width:100%;
+}
+
+.unieap .u-grid-header-scrollbox {
+	overflow: hidden; 
+	width: 100%;
+}
+.unieap .u-grid-scrollbox {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	z-index : 1;
+}
+.unieap .u-grid-header-content{
+	width : auto;
+	zoom : 100%;
+	overflow:hidden;
+}
+.unieap .u-grid-header-content .u-grid-rowbar-table{
+}
+.unieap .u-grid-contentbox{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.unieap .u-grid-content {
+	position: relative;
+	overflow: hidden;
+	outline: none;
+}
+
+/* row */
+.unieap .u-grid-row {
+}
+
+/** 修正IE6下detail中grid渲染不正确的bug,见U_EAP00006237 **/
+.dj_ie6 .unieap .u-grid-row {
+	position:relative;
+}
+.unieap .u-grid-row-odd {
+}
+
+.unieap .u-grid-row-over {
+	/*background: url(../images/grid/over_bg.gif) repeat-x top #efefef;*/
+}
+.unieap .u-grid-row-selected {
+	/*background: url(../images/grid/grid_row_selected_bg.gif) repeat-x top; */
+	/** 当grid有复选框时，选中复选框，背景颜色优先级应该提高 **/
+}
+.unieap .u-grid-row-current {
+	/*background: url(../images/grid/over_bg.gif) repeat-x top #efefef;*/
+}
+.unieap .u-grid-row-table {
+	font-size: 12px;
+	table-layout: fixed;
+	width:100%;
+}
+.unieap .u-grid-inner{
+	zoom:100%;
+	overflow:hidden;
+	width:100%; 
+	position:relative;
+}
+.unieap .u-grid-locked{
+	position:absolute;
+	width:100%;
+	visibility:hidden;
+	bottom:0px;
+	z-index : 2;
+}
+.dj_ie6 .unieap .u-grid-locked {
+	margin-bottom : -1px;
+}
+.unieap .u-grid-locked-content{
+	height:100%;
+	/** 解决MasterDetail中嵌套的Grid带有锁定行时显示不正确的问题 */
+	position : relative;
+	overflow:hidden;
+	visibility:visible;
+}
+.unieap .u-grid-locked-content-rows {
+	overflow:hidden;
+	width:100%;
+	zoom:1;
+}
+.unieap .u-grid-locked-content-rows .u-grid-cell {	
+}
+
+.unieap .u-grid-locked-content-rows .u-grid-toplockedrow .u-grid-cell {	
+}
+
+.unieap .u-grid-invisible {
+}
+
+.unieap .u-grid-cell {	
+	font-size:12px;
+	font-weight : normal;
+
+}
+
+
+.content-loading {
+	width: 140px;
+	height: 20px;
+	left: 35%;
+	position: absolute;
+}
+
+.content-loading-text {
+	text-align:left;
+	position: absolute;
+	display: inline-block;
+	padding:2px 0px 10px 25px;
+	font-size:13px;
+	font-family : tahoma, arial, helvetica, sans-serif;
+	font-style :italic;
+	color : #A9A9A9;
+	top: 0px;
+}
+
+
+/** 修正MasterDetail中嵌套的Grid表头分隔线不明线的bug **/
+.unieap .u-grid-hcell {
+}
+
+.unieap .u-grid-header .u-grid-cell {
+	font-size:13px;
+}
+
+/** 数字列标题默认居中对齐 */
+.unieap th.u-grid-text2-number {
+	text-align: center;
+}
+/** 数字列内容默认居右对齐 */
+.unieap td.u-grid-text2-number {
+	text-align: right;
+}
+
+.unieap .u-grid-content .u-grid-cell{
+	/* 解决bug U_EAP00008244 */
+	position: relative;
+	border-right : 1px solid #eee;
+	
+	/** ie6下不显示省略号**/
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.unieap .u-grid-text{
+	padding: 0 5px 0 5px;
+	vertical-align:middle;
+	overflow : hidden;
+}
+.u-grid-text2{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	zoom:1;
+	text-overflow:ellipsis;
+	-ms-text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.unieap .u-grid-content .u-grid-text{
+	display : block;
+	position: relative;
+}
+.unieap .u-grid-header .u-grid-text{
+	line-height:20px;
+}
+.unieap .u-grid-rowbar {
+	border: none;
+	padding: 0px;
+	overflow:hidden;
+	zoom:100%;
+}
+
+.unieap .u-grid-rowbar-table {
+	width: 100%;
+	table-layout:fixed;
+}
+.unieap .u-grid-rowbar-cell{
+	text-align:center;
+	font-size:12px;
+	padding : 0px;
+}
+.unieap .u-grid-rowbar-choice{
+	width:20px;
+	text-align:center;
+}
+/**
+*grid改变列宽时出现拖动条
+*/
+.unieap .u-grid-resize-proxy{
+	overflow : hidden;
+	width : 3px;
+	height : 100%;
+	font-size : 1px;
+	position : absolute;
+	top : 0px;
+	left : 5px;
+	display : none;	
+	z-Index : 5;
+}
+/**
+*定义主排序的样式
+*/
+.unieap .u-grid-sort-primary{
+}
+/**
+*定义主排序的升序样式
+*/
+.unieap .u-grid-sort-primary .u-grid-sort-up{
+	 padding-right:16px;
+	 cursor:default;
+}
+/**
+*定义主排序的降序样式
+*/
+.unieap .u-grid-sort-primary .u-grid-sort-down{
+	 padding-right:16px;
+}
+/**
+*定义次排序的样式
+*/
+.unieap .u-grid-sort-secondary{
+	
+}
+/**
+*定义次排序的升序样式和定义次排序的降序样式
+*/
+.unieap .u-grid-sort-secondary .u-grid-sort-up , .u-grid-sort-down{
+	 padding-right:16px;
+}
+/**
+ * 编辑
+ */
+.unieap .u-grid-value-changed{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:5px;
+		height:18px;
+		overflow:hidden;
+		font-size:11px;
+}
+
+.unieap .grid-pagecount-wait-img{
+	display: inline-block;
+	*display:inline;
+	zoom:1; 
+	cursor:wait;
+	width: 12px;
+	height:12px;	
+	margin-left:3px;
+}

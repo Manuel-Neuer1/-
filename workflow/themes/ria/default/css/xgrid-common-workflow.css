@@ -1,0 +1,515 @@
+
+.unieap .u-xgrid-headerContent {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.unieap .u-xgrid-views {
+	position: relative;
+	overflow: hidden;
+}
+
+.unieap .u-xgrid-view {
+	position: absolute;
+	top: 0;
+}
+
+.unieap .u-xgrid-viewContent {
+	overflow: hidden;
+	position: relative;
+}
+.unieap .u-xgrid-scrollContent {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.unieap .u-xgrid-table {
+	table-layout: fixed;
+	
+}
+
+
+
+
+
+.unieap .u-xgrid-htext{
+	font-size:12px;
+	white-space: nowrap;
+	overflow:hidden;
+	position:relative;
+}
+
+.unieap .u-xgrid-text{
+}
+
+/**
+*定义主排序的样式
+*/
+.unieap .u-xgrid-sort-primary{
+	background: url(../images/grid/header-over.gif) repeat-x top #D2DCEA !important;
+	border-bottom-color:#d2dcea;
+}
+/**
+*定义主排序的升序样式
+*/
+.unieap .u-xgrid-sort-primary .u-xgrid-sort-up{
+	 background:transparent url(../images/grid/sort_asc.gif) no-repeat scroll right 30%;
+	 padding-right:4px;
+	 cursor:default;
+	 position:absolute;
+	 left:50%;
+	 margin-left: -6.5px;
+	 top:-5px;
+}
+/**
+*定义主排序的降序样式
+*/
+.unieap .u-xgrid-sort-primary .u-xgrid-sort-down{
+	 background:transparent url(../images/grid/sort_desc.gif) no-repeat scroll right 30%;
+	 padding-right:4px;
+	 position:absolute;
+	 left:50%;
+	 margin-left: -6.5px;
+	 top:-5px;
+}
+/**
+*定义次排序的样式
+*/
+.unieap .u-xgrid-sort-secondary{
+	
+}
+/**
+*定义次排序的升序样式和定义次排序的降序样式
+*/
+.unieap .u-xgrid-sort-secondary .u-xgrid-sort-up , .u-xgrid-sort-down{
+	background:transparent url(../images/grid/sort_secondary.gif) no-repeat scroll right 55%;
+	 padding-right:4px;
+	 position:absolute;
+	 left:50%;
+	 top:-10px;
+}
+
+.unieap .u-xgrid-odd {
+	background-color: #f8f8f8;
+}
+
+.unieap .u-xgrid-even {
+}
+
+
+.header-corner {
+	width: 17px;
+	background-color: #eee;
+	right: 0;
+	position: absolute;
+}
+
+.content-corner {
+	width: 17px;
+	height: 17px;
+	background-color: #eee;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+
+.unieap .u-xgrid-rowbar-table tr {
+	background: url(../images/grid/header-bg.gif) repeat-x scroll center top #EBECEE;
+}
+
+.unieap .u-xgrid-rowbar {
+	height: 20px;
+	line-height: 21px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 1px solid #dadada;
+	font-size: 12px;
+    font-weight: normal;
+    text-align:center;
+}
+
+.unieap .u-xgrid-rowbar-cell{
+	font-size:12px;
+	padding : 0px;
+}
+
+/**
+*xgrid改变列宽时出现拖动条
+*/
+.unieap .u-xgrid-resize-proxy{
+	overflow : hidden;
+	width : 3px;
+	height : 100%;
+	border-left : 1px solid #000000;
+	font-size : 1px;
+	position : absolute;
+	top : 0px;
+	left : 5px;
+	display : none;	
+	z-Index : 5;
+}
+
+
+.unieap .u-xgrid-adjust-proxy{
+	position: absolute;
+	padding-left: 23px;
+	padding-right: 5px;
+	height: 25px;
+	line-height: 25px;
+	z-index: 6;
+	top: 5px;
+	border: 1px solid #E1E1E1;
+	background: #F7F7F7 url(../images/xgrid/grid-drop-no.gif) no-repeat 2px 4px;
+	-moz-box-shadow: 2px 2px 2px #333333;
+	-webkit-box-shadow: 2px 2px 2px #333333;
+	
+}
+
+.unieap .u-xgrid-adjust-yes{
+	background: #F7F7F7 url(../images/xgrid/grid-drop-yes.gif) no-repeat 2px 4px;
+}
+
+.unieap .move-top{
+	position: absolute;
+	left: 150px;
+	bottom: 21px;
+	width: 9px;
+	top: -5px;
+	height: 9px;
+	overflow: hidden;
+	margin-left: -5px;
+	z-index: 8;
+	background: url(../images/xgrid/grid-move-top.gif);
+}
+
+.unieap .move-bottom{
+	position: absolute;
+	left: 150px;
+	bottom: -9px;
+	width: 9px;
+	height: 9px;
+	top: 20px;
+	overflow: hidden;
+	margin-left: -5px;
+	z-index: 8;
+	background: url(../images/xgrid/grid-move-bottom.gif);
+}
+
+.unieap .locked-splitter{
+	border-right: 1px solid #000;
+	z-index: 1;
+}
+
+.unieap .row-locked-splitter{
+	border-top: 1px solid #000;
+}
+
+.unieap .xgrid-table-layout{
+	position: absolute;
+}
+
+.unieap .u-xgrid-focus{
+	background: url(../images/grid/header-over.gif) repeat-x top #D2DCEA !important;
+}
+
+.unieap .u-xgrid-menu{
+	background : url(../images/xgrid/grid-header-dropbtn.gif) 0 50%;
+    right: 0px;
+    top: 0px;
+    width: 14px;
+    height: 20px;
+    visibility: hidden;
+    position: absolute;
+	display: block;
+}
+
+.unieap .u-xgird-menu-lockcell{
+	background-image:url(../images/xgrid/grid-menu-lock.gif);
+}
+
+.unieap .u-xgird-menu-lockcellDisabled{
+	background-image:url(../images/xgrid/grid-menu-lock.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/  
+}
+
+.unieap .u-xgird-menu-unlockcell{
+	background-image:url(../images/xgrid/grid-menu-unlock.gif);
+}
+
+.unieap .u-xgird-menu-unlockcellDisabled{
+	background-image:url(../images/xgrid/grid-menu-unlock.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/ 
+}
+
+.unieap .u-xgird-menu-columns{
+	background-image:url(../images/xgrid/grid-menu-columns.gif);
+}
+
+.unieap .u-xgird-menu-unchecked{
+	background-image:url(../images/xgrid/grid-menu-unchecked.gif);
+}
+
+.unieap .u-xgird-menu-checked{
+	background-image:url(../images/xgrid/grid-menu-checked.gif);
+}
+
+.unieap .u-xgird-menu-checkedDisabled{
+	background-image:url(../images/xgrid/grid-menu-checked.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/ 
+}
+
+.unieap .u-xgrid-row-current {
+	background-color: #efefef;
+}
+
+.unieap .u-xgrid-row-highlight {
+	background-color: #efefef;
+}
+
+
+
+/**
+ * 编辑
+ */
+.unieap .u-xgrid-value-changed{
+		background: url(../images/grid/changed.gif) no-repeat;
+}
+/*
+*工作流设置
+*/
+
+/*
+*设置grid的外边框以及列线
+*
+*/
+.unieap .u-xgrid {
+	position: relative;
+	left:0px;
+	border-left: 1px solid #b4bcbf;
+	border-right: 1px solid #dadada;
+}
+
+.unieap .u-xgrid-header {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: url(../images/xgrid/header-bg.png)  repeat-x top #ebecee !important;
+}
+
+.unieap .u-xgrid-headers {
+	position: relative;
+	overflow: hidden;
+	border-top: #b4bcbf 1px solid !important;/**modify 为grid视图统一添加外border*/
+}
+
+.unieap .u-xgrid-cell {
+	height: 20px;
+	line-height: 21px;
+	text-indent: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid #b4bcbf;/**modify 设置右边框颜色*/
+	/*border-right: 1px solid #dadada;border-bottom: 1px solid #dadada;*/
+	font-size: 12px;
+    	font-weight: normal;
+    	padding-right: 4px;/*  */
+}
+
+.unieap .u-xgrid-hcell {
+	height: 20px;
+	/*line-height: 21px;*/
+	line-height:20px;
+	text-indent: 5px;
+	font-size:13px;
+	font-weight: normal;
+	border-right: 1px solid #b4bcbf;/**modify 设置右边框颜色*/
+	/**border-bottom: 1px solid #dadada;border-right: 1px solid #dadada;*/
+}
+
+.unieap .u-xgrid-rowbar-choice{
+	height: 20px;
+	line-height: 21px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 0px solid #dadada;/*由于grid cell去掉了下边框，为了保持对齐，rowbar也必须去掉下边框*/
+	font-size: 12px;
+    font-weight: normal;
+    text-align:center;
+    width:35px;
+}
+
+.unieap .u-xgrid-rowbar-table {
+	table-layout: fixed;
+	position: absolute;
+	width:100%;
+	border-right: 1px solid #b4bcbf;
+	border-bottom: 1px solid #b4bcbf;
+}
+
+.unieap .u-xgrid-table {
+	table-layout: fixed;
+	border-bottom: 1px solid #b4bcbf;
+	
+}
+
+/**
+*设置选中背景色
+*/
+.unieap .u-xgrid-row-selected {
+	/** 当xgrid有选则模块时，背景颜色优先级应该提高 **/
+	color:#f8f4f3;
+	background: url(../images/xgrid/rowSelected.png) repeat-x;
+}
+
+.unieap .u-xgrid-row-over{
+	color:#f8f4f3;
+	background: url(../images/xgrid/rowSelected.png) repeat-x;
+}
+
+
+/**
+*纵向滚动条
+*/
+
+.unieap .u-xgrid-yscroller {
+	z-index: 1;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right:2px;
+	width: 8px;
+	display: none;
+	background: #B9B9B9 !important;
+	border-radius:25px;
+}
+
+.unieap .y-scroller-up {
+	position: absolute;
+	top: 10px;
+	left:0px;
+	width: 8px;
+	height: 16px;
+	background: #B9B9B9 url(../images/xgrid/yScroll-up.png) no-repeat  !important;
+}
+
+.unieap .y-scroller-down {
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	width: 8px;
+	height: 16px;
+	background: #B9B9B9 url(../images/xgrid/yScroll-down.png) no-repeat  !important;
+}
+
+.unieap .y-scroller-handle {
+	position: absolute;
+	top: 16px;
+	width: 6px;
+	right: 0px!important;
+	left:1px;
+	height: 16px;
+	background: #6f6f6f !important;
+	border-radius:25px;
+}
+
+.unieap .y-scroller-handle-top {
+	width: 6px;
+	height: 3px;
+	top: 10px;
+	overflow: hidden;
+	position: absolute;
+	background: #6f6f6f !important;
+}
+
+.unieap .y-scroller-handle-middle {
+	width: 6px;
+	top: 50%;
+	overflow: hidden;
+	margin-top: -4.5px;
+	position: absolute;
+	background: #6f6f6f !important;
+}
+
+.unieap .y-scroller-handle-bottom {
+	width: 6px;
+	height: 3px;
+	overflow: hidden;
+	bottom: 10px;
+	position: absolute;
+	background: #6f6f6f !important;
+}
+
+/**
+*横向滚动条
+*/
+.unieap .u-xgrid-xscroller {
+	z-index: 1;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 8px;
+	background: #B9B9B9 !important;
+	border-radius:25px;
+}
+
+.unieap .x-scroller-up {
+	position: absolute;
+	left: 10px;
+	bottom: 0px!important;
+	width: 15px;
+	height: 8px;
+	background: #B9B9B9 url(../images/xgrid/scroll-top.png) no-repeat  !important;
+}
+
+.unieap .x-scroller-down {
+	position: absolute;
+	right: 0px;
+	width: 16px;
+	height: 8px;
+	bottom: 0px!important;
+	background: #B9B9B9 url(../images/xgrid/scroll-bottom.png) no-repeat  !important;
+}
+
+.unieap .x-scroller-handle {
+	position: absolute;
+	top:2px;
+	left: 16px;
+	height: 6px;
+	background: #6f6f6f !important;
+	border-radius:25px;
+}
+
+.unieap .x-scroller-handle-east {
+	width: 3px;
+	height: 6px;
+	right: 0;
+	position: absolute;
+	right:10px;
+	bottom:0px !important;
+	background: #6f6f6f !important;
+}
+
+.unieap .x-scroller-handle-middle {
+	width: 9px;
+	height: 6px;
+	left: 50%;
+	position: absolute;
+	bottom:0px !important;
+	background: #6f6f6f !important;
+}
+
+.unieap .x-scroller-handle-west {
+	width: 3px;
+	height: 6px;
+	left: 10px;
+	position: absolute;
+	bottom:0px !important;
+	background: #6f6f6f !important;
+}

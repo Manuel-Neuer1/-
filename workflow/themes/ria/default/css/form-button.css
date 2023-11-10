@@ -1,0 +1,91 @@
+/**
+ * @summary:
+ * 		设置按钮控件的外层容器样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+
+
+.unieap .u-form-dropBtn{
+	background:#dddddd url("../images/form/button/button-bg.gif") repeat-x ;
+}
+
+
+.unieap .u-form-dropBtn-icon-normal {
+	background: #e6e7d5 url("../images/form/icon.gif") no-repeat;
+}
+
+.unieap .u-form-dropBtn-icon-disabled {
+	background: #e6e7d5 url("../images/form/disabled-icon.gif") no-repeat;
+}
+/**
+ * @summary:
+ * 		设置按钮控件的样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+.unieap .u-form-btn {
+	background:transparent;
+}
+
+.unieap a.u-form-btn-outer,
+.unieap a.u-form-btn-outer-disabled{
+	border:none;
+	background:#e6e7d5 url("../images/form/button/button-bg.gif") repeat-x top left;
+}
+
+
+.unieap a:hover.u-form-btn-outer{
+	background:#BFC0B2 url("../images/form/button/buttonHover.jpg") repeat-x top left;
+}
+
+/**
+ * @summary:
+ * 		设置按钮上文字的样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+.unieap .u-form-btn-txt {
+	font:12px Verdana;
+	color:#000;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.DropDownButton}
+ * @summary:
+ * 		设置下拉按钮控件右侧的下拉图标样式
+ */
+.unieap .u-form-triggerBtnImg{
+	background:transparent url("../images/form/button/downarrow.gif") no-repeat center;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置设置CheckBoxGroup控件和RadioGroup控件的里层文本样式。
+ */
+.unieap .u-form-chkGroup-label{
+	font-size:12px;
+}
+
+.unieap a.titlePane-button{
+	display:inline-block;
+	background: repeat-x top left;
+	border-style:solid;
+	border-color:#7f9db9;
+	border-width: 0px 0px 0px 2px !important;
+	height:18px;
+	margin: 3px;
+	text-align: center;
+	padding: 0px;
+}
+
+.unieap a:hover.titlePane-button{
+	background:#ABBFEC repeat-x top left;
+}
+.unieap a:hover.u-form-btn-outer-disabled{
+	background: none;
+}
+

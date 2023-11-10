@@ -1,0 +1,184 @@
+.unieap .dijitTreeContainer  table {
+}
+
+.unieap .treeCheckBoxReadOnly {
+}
+
+.unieap .treeLabelDisabled {
+	text-decoration: line-through;
+}
+
+.unieap .treeLabelReadOnly {
+	text-decoration: line-through;
+}
+/* Tree */
+.unieap .treeRenderNode {
+	line-height: 19px;
+	display: -moz-inline-box;
+	display: inline-block;
+	vertical-align: middle;
+	border-left: #ffffff solid 1px;
+	border-right: #ffffff solid 1px;
+	width: auto;
+}
+
+.unieap .dijitTreeContainer {
+}
+
+.unieap .dijitTree {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.unieap .dijitTreeNode {
+	cursor: pointer;
+	background-position: top left;
+	background-repeat: repeat-y;
+	margin-left: 20px;
+}
+
+/* left vertical line (grid) for all nodes */
+.unieap .dijitTreeIsLast {
+}
+
+.unieap .dijitTreeIsRoot {
+	margin-left: 0;
+	background-image: none;
+}
+
+.unieap .dijitTreeExpando {
+	width: 16px;
+	height: 16px;
+	line-height: 19px;
+	background-repeat: no-repeat;
+}
+
+.unieap .treeRootNode {
+	
+}
+
+.unieap .dijitTreeContent {
+	cursor: pointer;
+}
+
+.unieap .dijitTreeExpand {
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+
+/* same style as IE selection */
+.unieap .dijitTreeNodeEmphasized {
+}
+
+/* don't use :focus due to opera and IE's lack of support on div's */
+.unieap .dijitTreeLabel {
+	white-space: nowrap;
+	padding: 0px;
+	padding-left: 6px;
+	margin: 0px;
+	line-height: 18px;
+	overflow: hidden;
+	zoom: 100%;
+}
+
+.unieap .dijitTreeLabelFocused { /*
+	background:url(../images/tree/treebg-on.gif);
+	background-position:0px 19px;
+	color:#959595;
+	border-color:#bfd8d7;
+	border-left:solid #bfd8d7 1px;
+	border-right:solid #bfd8d7 1px;
+	hidefocus:true;	
+	*/
+}
+
+.unieap .unieapTreeMouseOver { /*
+	background:url(../images/tree/treebg-hover.gif);
+	background-position:0px 19px;
+	border-left: solid #ccd5da 1px;
+	border-right:solid #ccd5da  1px;
+	*/
+}
+
+.unieap .dijitTreeExpandoOpened {
+	width: 16px;
+}
+
+.unieap .dijitTreeExpandoClosed {
+	width: 16px;
+}
+
+.unieap .dijitTreeExpandoLeaf {
+	width: 16px;
+}
+
+.unieap .dijitTreeExpandoLoading {
+	width: 16px;
+}
+
+.unieap .dijitTreeIcon {
+	width: 16px;
+	height: 16px;
+}
+
+.unieap .dijitFolderOpened {
+	width: 16px;
+}
+
+.unieap .dijitFolderClosed {
+	width: 16px;
+}
+
+.unieap .dijitLeaf {
+	width: 16px;
+}
+
+.dijitCheckBox { /* inside a toggle button */
+	/* checkbox sprite image */
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.dijitCheckBox {
+	padding: 0;
+	border: 0;
+	width: 16px;
+	height: 16px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.dijitCheckBox INPUT {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.dijitCheckBoxInput {
+	opacity: 0.01;
+}
+
+.dj_ie .dijitCheckBoxInput {
+	filter: alpha(opacity = 0);
+}
+
+.dijitCheckBox {
+	background-position: -16px;
+}
+
+.dijitCheckBoxChecked {
+	background-position: 0px;
+}
+
+.dijitCheckBoxDisabled {
+	background-position: -48px;
+}
+
+.dijitCheckBoxCheckedDisabled {
+	background-position: -32px;
+}

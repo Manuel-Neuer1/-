@@ -1,0 +1,15 @@
+.imagePreviewArea{
+	border: 1px ridge black;
+	overflow: scroll;
+	width: 300px !important;
+	padding: 2px;
+	background-color: #eee;
+}
+.imagePreviewArea td{
+	white-space:normal;
+}
+.imageSelected{
+	border: 2px solid gray;
+	opacity: 0.5;
+	filter: alpha(opacity=50) !important;	
+}

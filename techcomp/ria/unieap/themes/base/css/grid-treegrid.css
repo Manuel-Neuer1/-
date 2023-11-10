@@ -1,0 +1,45 @@
+/**
+ * 树表 base
+ */
+
+.unieap .u-grid-treegrid-celltable{
+	table-layout:fixed;
+	float:left;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	margin:0px;
+}
+.unieap .u-grid-treegrid-celltable td{ 
+	text-overflow:ellipsis;
+	overflow : hidden;
+}
+.unieap .u-grid-treegrid-minus{
+	width:16px;
+	height: 16px;
+	background-position:center;
+	background-repeat:no-repeat;
+	float:left;
+}
+.unieap .u-grid-treegrid-plus{
+	width: 16px;
+	height: 16px;
+	background-position:center;
+	background-repeat:no-repeat;
+	float:left;
+}
+.unieap .u-grid-treegrid-closedIcon-default{
+	width: 16px;
+	height: 16px;
+	overflow:hidden;
+}
+.unieap .u-grid-treegrid-openedIcon-default{
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+.unieap .u-grid-treegrid-leafIcon-default{
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}

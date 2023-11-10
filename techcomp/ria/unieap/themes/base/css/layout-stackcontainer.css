@@ -1,0 +1,13 @@
+.unieap .stackcontainer{
+	overflow:hidden;
+}
+
+/**隐藏StackContainer下的页面*/
+.unieap .stackpage-hidden{
+	display:none !important;
+}
+
+/**显示StackContainer下的页面*/
+.unieap .stackpage-visible{
+	display:block !important;
+}

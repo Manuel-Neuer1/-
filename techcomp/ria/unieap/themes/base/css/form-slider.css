@@ -1,0 +1,49 @@
+.unieap .u-form-slider {
+	font-size: 0px;
+}
+.unieap .u-form-slider-x{
+	position: relative;
+}
+
+.unieap .u-form-slider-x .u-form-slider-leftcap{
+	position: absolute;
+	left: 0;
+}
+
+.unieap .u-form-slider-x .u-form-slider-rightcap{
+	position: absolute;
+	right: 0;
+}
+
+.unieap .u-form-slider-x .u-form-slider-rail{
+	position: absolute;
+}
+
+.unieap .u-form-slider-x .u-form-slider-progress{
+	width: 0px;
+	position: relative;
+}
+
+.unieap .u-form-slider-y{
+	position: relative;
+}
+
+.unieap .u-form-slider-y .u-form-slider-leftcap{
+	position: absolute;
+	top: auto;
+	bottom: 0;
+}
+
+.unieap .u-form-slider-y .u-form-slider-rightcap{
+	position: absolute;
+}
+
+.unieap .u-form-slider-y .u-form-slider-rail{
+	position: absolute;
+}
+
+.unieap .u-form-slider-y .u-form-slider-progress{
+	height: 0px;
+	position: absolute;
+	bottom: 0;
+}

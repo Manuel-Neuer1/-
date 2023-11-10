@@ -1,0 +1,50 @@
+.unieap .buttons{
+	text-align : right;
+	margin : 5px;
+	height : 32px;
+}
+.unieap .buttons .u-form-btn-outer,
+.unieap .buttons .u-form-btn-outer-disabled{
+	margin-left : 5px;
+}
+
+.unieap .buttons .u-form-btn{
+	text-align : center;
+	width : 60px;
+}
+
+.unieap .form_layout{
+	width : auto;
+	zoom : 1;
+	margin : 5px;
+	border : 1px solid #7f9db9;
+}
+.unieap .table_layout{
+	table-layout : fixed;
+	width : 99%;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+.unieap .table_layout .tr{
+	height : 26px;
+}
+
+.unieap .table_layout .th{
+	text-align : right;
+	vertical-align : top;
+}
+.unieap .table_layout .th label{
+	font-size:12px;
+	display:block;
+	margin:5px;
+}
+.unieap .table_layout .tr .u-form-widget{
+	display : block;
+}
+.unieap .table_layout .textarea{
+	height : 86px;
+}
+
+.unieap .u-form-multiline-border-transparent {
+	border-color: transparent;
+}

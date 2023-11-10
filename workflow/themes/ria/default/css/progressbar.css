@@ -1,0 +1,36 @@
+/**
+*	ProgressBar的自定义样式
+**/
+.unieap .dijitProgressBarEmpty{
+	background:#fff url("../images/progressbar/progressBarEmpty.png") repeat-x center center;
+	border-color: #8ba0bd;
+}
+
+.unieap .dijitProgressBarTile{
+	background:#f0f0f0 url("../images/progressbar/progressBarFull.png") repeat-x center center;
+}
+
+.unieap .dijitProgressBarFull {
+	border-right:1px solid #8ba0bd;
+}
+
+.unieap .dijitProgressBarLabel {
+	color:#293a4b;
+}
+
+.unieap .dijitProgressBarIndeterminate .dijitProgressBarTile {
+	background:#cad2de url("../images/progressbar/progressBarAnim.gif") repeat-x center center;
+}
+
+.dijitProgressBarTile {
+	background-color:#aaa;
+}
+
+.dijit_a11y .dijitProgressBarTile{
+	background-color:transparent !important;
+}
+
+
+.dijitProgressBarLabel {
+	background-color:transparent !important;
+}

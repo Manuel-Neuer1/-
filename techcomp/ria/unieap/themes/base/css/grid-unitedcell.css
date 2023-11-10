@@ -1,0 +1,55 @@
+/**
+ * 合并单元格 base
+ */
+.unieap .u-grid-unitedLayer{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:3;
+	visibility:hidden;
+}
+
+.unieap .u-grid-unitedLayout{
+	height:100%;
+}
+.unieap .u-grid-unitedCellLayer{
+	position:relative;
+	width:100%;
+	height:100%;
+	font-size :12px;
+	visibility:visible;
+}
+.unieap .u-grid-unitedCellLayer-container{
+	position:relative;
+	top:0;
+	left:0;
+	height:0px;
+	width:100%;
+	z-index:3;
+}
+.unieap .u-grid-unitedCell{
+	margin-left: -5px;
+	position:absolute;
+	width:100%;
+	opacity:100;
+}
+
+.unieap .u-grid-unite-cell{
+	width:100%;
+	position : absolute;
+	overflow:hidden;
+	left :0px;
+	zoom:100%;
+}
+
+.unieap .u-grid-unitedCell-inner{
+	font-size:12px;
+	font-weight : normal;
+	overflow : hidden;
+	text-overflow:ellipsis;
+}
+.unieap .u-grid-united-group{
+	zoom: 100%;
+}

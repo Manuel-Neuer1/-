@@ -1,0 +1,76 @@
+/**
+* Tooltip组件的自定义样式
+**/
+
+.dijitTooltipContainer {
+	border: solid black 2px;
+	background: #b8b5b5;
+	color: black;
+	z-index:10000;
+}
+
+
+.unieap .dijitTooltip{
+	background: transparent;
+	z-index:10000;
+}
+
+.unieap .dijitTooltipContainer {
+	background: #ffffff url("../images/tooltip/popupMenuBg.gif") repeat bottom left;
+	border: 1px solid #7eabcd;
+	z-index:10000;
+}
+
+.unieap .dijitTooltipBelow .dijitTooltipConnector {
+	background:url("../images/tooltip/tooltipConnectorUp.png") no-repeat top left;
+	z-index:10000;
+}
+
+.dj_ie6 .unieap .dijitTooltipBelow .dijitTooltipConnector {
+	background-image: url("../images/tooltip/tooltipConnectorUp.gif");
+		z-index:10000;
+}
+
+.unieap .dijitTooltipAbove .dijitTooltipConnector {
+	background:url("../images/tooltip/tooltipConnectorDown.png") no-repeat top left;
+	z-index:10000;
+}
+.dj_ie6 .unieap .dijitTooltipAbove .dijitTooltipConnector {
+	background-image: url("../images/tooltip/tooltipConnectorDown.gif");
+		z-index:10000;
+}
+
+.unieap .dijitTooltipLeft .dijitTooltipConnector {
+	background:url("../images/tooltip/tooltipConnectorRight.png") no-repeat top left;
+		z-index:10000;
+}
+.dj_ie6 .unieap .dijitTooltipLeft .dijitTooltipConnector {
+	background-image: url("../images/tooltip/tooltipConnectorRight.gif");
+		z-index:10000;
+}
+
+
+.unieap .dijitTooltipRight .dijitTooltipConnector {
+	background:url("../images/tooltip/tooltipConnectorLeft.png") no-repeat top left;
+		z-index:10000;
+}
+.dj_ie6 .unieap .dijitTooltipRight .dijitTooltipConnector {
+	background-image: url("../images/tooltip/tooltipConnectorLeft.gif");
+		z-index:10000;
+}
+
+.dj_webkit .unieap .dijitPopup .dijitTooltipContainer,
+.dj_webkit .unieap .dijitPopup .dijitMenu {
+	-webkit-box-shadow: 0px 5px 10px #adadad;
+		z-index:10000;
+}
+
+
+.unieap  .dijitTooltipContainerLoadingImage {
+	background: url("../images/tooltip/loadingtooltip.gif") no-repeat top left;
+		z-index:10000;
+}
+.dj_ie6 .unieap .dijitTooltipContainerLoadingImage {
+	background-image: url("../images/tooltip/loadingtooltip.gif");
+		z-index:10000;
+}

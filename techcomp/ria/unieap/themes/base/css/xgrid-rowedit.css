@@ -1,0 +1,80 @@
+.unieap .xgrid-rowedit-container {
+	
+	position: absolute;
+	
+}
+
+.unieap .xgrid-rowedit-edit{
+	position: absolute;
+	border-top: 1px solid #99BCE8;
+	border-bottom: 1px solid #99BCE8;
+	background-color: #EAF1FB;
+	z-index: 2;
+}
+
+.unieap .xgrid-rowedit-inputDiv{
+	position: absolute;
+	top: 5px;
+	margin-bottom: 4px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.unieap .xgrid-rowedit-lockedview{
+	position: absolute;
+}
+
+.unieap .xgrid-rowedit-splitter{
+	border-right:1px solid #000;
+}
+
+
+.unieap .xgrid-rowedit-unlockedview{
+	position: absolute;
+	overflow: hidden;
+}
+
+.unieap .xgrid-rowedit-unlockedviewcontent{
+	position: absolute;
+	overflow: hidden;
+}
+
+.unieap .u-form-field:hover{
+	border: 1px solid #99BCE8;
+	-webkit-box-shadow: inset 0 0 1px #99BCE8;
+	-moz-box-shadow: inset 0 0 1px #99BCE8;
+	box-shadow: inset 0 0 1px #99BCE8;
+}
+
+.unieap .xgrid-rowedit-input{
+	border: 1px solid #B5B8C8;
+	width: 100%;
+	height: 100%;
+ 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#DEE3E6), to(#FFFFFF)); 
+	background: -moz-linear-gradient(top, #DEE3E6, #FFFFFF);
+}
+
+.unieap .xgrid-rowedit-cannotEdit{
+	background-color: #EAF1FB;
+	border: 0 none;
+	font: 12px Arial,clean,sans-serif;
+	margin: 0 -1px 0 0;
+	padding: 2px 1px 1px 5px;
+	
+}
+
+.unieap .xgrid-rowedit-closeNodeDiv{
+	border: 1px solid #99BCE8;
+	border-bottom: 0 none;
+	height: 12px;
+	width: 11px;
+	top: -12px;
+	background-color: #EAF1FB;
+	position: absolute;
+	z-index: 111;
+	background-image:url("../images/xgrid/close-div.gif");
+}
+
+.unieap .xgrid-rowedit-closeNodeDiv:hover{
+	background-color: #B5B8C8;
+}

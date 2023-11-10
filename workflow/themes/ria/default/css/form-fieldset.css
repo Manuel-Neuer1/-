@@ -1,0 +1,28 @@
+.unieap .dijitOpen .u-form-fieldset-btn {
+	background: transparent
+		url("../images/form/fieldset/fieldsetSpirit.gif") no-repeat;
+		border-width: 1px 1px 1px 1px;
+}
+
+.unieap .dijitOpen .u-form-fieldset-mouseover .u-form-fieldset-btn {
+	background: transparent
+		url("../images/form/fieldset/fieldsetSpirit.gif") no-repeat;
+		border-width: 1px 1px 1px 1px;
+}
+
+.unieap .dijitClosed .u-form-fieldset-btn {
+	background: transparent
+		url("../images/form/fieldset/fieldsetSpirit.gif") no-repeat;
+		border-width: 1px 0px 0px 0px;
+}
+
+.unieap .dijitClosed .u-form-fieldset-mouseover .u-form-fieldset-btn {
+	background: transparent
+		url("../images/form/fieldset/fieldsetSpirit.gif") no-repeat;
+		border-width: 1px 0px 0px 0px;
+}
+
+.unieap .u-form-fieldset legend {
+	color: #000;
+	font-size: 12px;
+}

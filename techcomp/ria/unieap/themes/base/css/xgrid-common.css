@@ -1,0 +1,444 @@
+.unieap .u-xgrid {
+	position: relative;
+}
+
+.unieap .u-xgrid-headers {
+	position: relative;
+	overflow: hidden;
+	border-top: 1px solid #dadada;
+}
+
+.unieap .u-xgrid-header {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: url(../images/xgrid/header.gif)  repeat-x top #ebecee;
+}
+
+.unieap .u-xgrid-headerContent {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.unieap .u-xgrid-views {
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #dadada;
+}
+
+.unieap .u-xgrid-view {
+	position: absolute;
+	top: 0;
+}
+
+.unieap .u-xgrid-viewContent {
+	overflow: hidden;
+	position: relative;
+}
+.unieap .u-xgrid-scrollContent {
+	overflow: hidden;
+	position: relative;
+}
+.unieap .u-xgrid-yscroller {
+	z-index: 1;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 17px;
+	display: none;
+	background: transparent url(../images/xgrid/yscroller.bmp) repeat 100% 0;
+}
+
+.unieap .y-scroller-up {
+	position: absolute;
+	top: 0;
+	right: 1px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/xgrid/yscroller.bmp);
+}
+
+.unieap .y-scroller-down {
+	position: absolute;
+	bottom: 0px;
+	right: 1px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/xgrid/yscroller.bmp) repeat 0 16px;
+}
+
+.unieap .y-scroller-handle {
+	position: absolute;
+	top: 16px;
+	width: 17px;
+	right: 0px!important;
+	right: 0.5px;
+	height: 16px;
+	background: url(../images/xgrid/yscroller.bmp) repeat -96px 0;
+}
+
+.unieap .y-scroller-handle-top {
+	width: 17px;
+	height: 3px;
+	top: 0;
+	overflow: hidden;
+	position: absolute;
+	background: url(../images/xgrid/yscroller.bmp) repeat -32px 1px;
+}
+
+.unieap .y-scroller-handle-middle {
+	width: 17px;
+	height: 9px;
+	top: 50%;
+	overflow: hidden;
+	margin-top: -4.5px;
+	position: absolute;
+	background: url(../images/xgrid/yscroller.bmp) repeat -64px 0;
+}
+
+.unieap .y-scroller-handle-bottom {
+	width: 17px;
+	height: 3px;
+	overflow: hidden;
+	bottom: 0;
+	position: absolute;
+	background: url(../images/xgrid/yscroller.bmp) repeat -32px -29px;
+}
+
+.unieap .u-xgrid-xscroller {
+	z-index: 1;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 17px;
+	background: transparent url(../images/xgrid/xscroller.bmp) repeat 0 100%;
+}
+
+.unieap .x-scroller-up {
+	position: absolute;
+	left: 0;
+	bottom: 1px!important;
+	bottom: 0.5px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/xgrid/xscroller.bmp) 0 0;
+}
+
+.unieap .x-scroller-down {
+	position: absolute;
+	right: 0;
+	bottom: 1px!important;
+	bottom: 0.5px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/xgrid/xscroller.bmp) repeat 16px 0;
+}
+
+.unieap .x-scroller-handle {
+	position: absolute;
+	left: 16px;
+	width: 16px;
+	height: 17px;
+	background: url(../images/xgrid/xscroller.bmp) repeat 0 -96px;
+}
+
+.unieap .x-scroller-handle-east {
+	width: 3px;
+	height: 15px;
+	right: 0;
+	bottom: 1px!important;
+	bottom: 0.5px;
+	position: absolute;
+	background: url(../images/xgrid/xscroller.bmp) repeat -30px -33px;
+}
+
+.unieap .x-scroller-handle-middle {
+	width: 9px;
+	height: 15px;
+	left: 50%;
+	bottom: 1px!important;
+	bottom: 0px;
+	margin-left: -4.5px;
+	position: absolute;
+	background: url(../images/xgrid/xscroller.bmp) repeat 100% -65px;
+}
+
+/** 数字列标题默认居中对齐 */
+.unieap th.u-xgrid-text2-number {
+	text-align: center;
+}
+/** 数字列内容默认居右对齐 */
+.unieap td.u-xgrid-text2-number {
+	text-align: right;
+	margin-right: 5px;
+}
+
+.unieap .x-scroller-handle-west {
+	width: 3px;
+	height: 15px;
+	bottom: 1px!important;
+	bottom: 0.5px;
+	left: 0;
+	position: absolute;
+	background: url(../images/xgrid/xscroller.bmp) repeat 0 -33px;
+}
+
+.unieap .u-xgrid-table {
+	table-layout: fixed;
+	
+}
+
+.unieap .u-xgrid-cell {
+	height: 20px;
+	line-height: 21px;
+	text-indent: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 12px;
+    font-weight: normal;
+    text-overflow: ellipsis;
+}
+
+.unieap .u-xgrid-hcell {
+	height: 20px;
+	/*line-height: 21px;*/
+	line-height:20px;
+	text-indent: 5px;
+	font-size:13px;
+	font-weight: normal;
+	border-bottom: 1px solid #dadada;
+	border-right: 1px solid #dadada;
+	background: url(../images/xgrid/header.gif) repeat-x scroll center top #EBECEE;
+}
+
+.unieap .u-xgrid-htext{
+	font-size:13px;
+	white-space: nowrap;
+	overflow:hidden;
+	position:relative;
+}
+
+.unieap .u-xgrid-odd {
+	background-color: #f8f8f8;
+}
+
+.header-corner {
+	width: 17px;
+	background-color: #eee;
+	right: 0;
+	position: absolute;
+}
+
+.content-corner {
+	width: 17px;
+	height: 17px;
+	background-color: #eee;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+.content-loading {
+	width: 140px;
+	height: 20px;
+	left: 35%;
+	position: absolute;
+}
+
+.content-loading-text {
+	text-align:left;
+	position: absolute;
+	display: inline-block;
+	padding:2px 0px 10px 25px;
+	font-size:13px;
+	font-family : tahoma, arial, helvetica, sans-serif;
+	font-style :italic;
+	color : #A9A9A9;
+	top: 0px;
+}
+
+.unieap .u-xgrid-rowbar-table {
+	table-layout: fixed;
+	position: absolute;
+	border-right: 1px solid #dadada;
+}
+
+.unieap .u-xgrid-rowbar-table tr {
+	background: url(../images/grid/header-bg.gif) repeat-x scroll center top #EBECEE;
+}
+
+.unieap .u-xgrid-rowbar {
+	height: 20px;
+	line-height: 21px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 1px solid #dadada;
+	font-size: 12px;
+    font-weight: normal;
+    text-align:center;
+}
+
+.unieap .u-xgrid-rowbar-cell{
+	font-size:12px;
+	padding : 0px;
+}
+
+.unieap .u-xgrid-rowbar-choice{
+	height: 20px;
+	line-height: 21px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 1px solid #dadada;
+	font-size: 12px;
+    font-weight: normal;
+    text-align:center;
+}
+
+/**
+*xgrid改变列宽时出现拖动条
+*/
+.unieap .u-xgrid-resize-proxy{
+	overflow : hidden;
+	width : 3px;
+	height : 100%;
+	border-left : 1px solid #000000;
+	font-size : 1px;
+	position : absolute;
+	top : 0px;
+	left : 5px;
+	display : none;	
+	z-Index : 5;
+}
+
+
+.unieap .u-xgrid-adjust-proxy{
+	position: absolute;
+	padding-left: 23px;
+	padding-right: 5px;
+	height: 25px;
+	line-height: 25px;
+	z-index: 6;
+	top: 5px;
+	border: 1px solid #E1E1E1;
+	background: #F7F7F7 url(../images/xgrid/grid-drop-no.gif) no-repeat 2px 4px;
+	-moz-box-shadow: 2px 2px 2px #333333;
+	-webkit-box-shadow: 2px 2px 2px #333333;
+	
+}
+
+.unieap .u-xgrid-adjust-yes{
+	background: #F7F7F7 url(../images/xgrid/grid-drop-yes.gif) no-repeat 2px 4px;
+}
+
+.unieap .move-top{
+	position: absolute;
+	left: 150px;
+	bottom: 21px;
+	width: 9px;
+	top: -5px;
+	height: 9px;
+	overflow: hidden;
+	margin-left: -5px;
+	z-index: 8;
+	background: url(../images/xgrid/grid-move-top.gif);
+}
+
+.unieap .move-bottom{
+	position: absolute;
+	left: 150px;
+	bottom: -9px;
+	width: 9px;
+	height: 9px;
+	top: 20px;
+	overflow: hidden;
+	margin-left: -5px;
+	background: url(../images/xgrid/grid-move-bottom.gif);
+}
+
+.unieap .locked-splitter{
+	border-right: 1px solid #000;
+	z-index: 1;
+}
+
+.unieap .row-locked-splitter{
+	border-top: 1px solid #000;
+}
+
+.unieap .xgrid-table-layout{
+	position: absolute;
+}
+
+.unieap .u-xgrid-focus{
+	background: url(../images/grid/header-over.gif) repeat-x top #D2DCEA !important;
+}
+
+.unieap .u-xgrid-menu{
+	background : url(../images/xgrid/grid-header-dropbtn.gif) 0 50%;
+    right: 4px;
+    top: 0px;
+    width: 14px;
+    height: 20px;
+    visibility: hidden;
+    position: absolute;
+	display: block;
+}
+
+.unieap .u-xgird-menu-lockcell{
+	background-image:url(../images/xgrid/grid-menu-lock.gif);
+}
+
+.unieap .u-xgird-menu-lockcellDisabled{
+	background-image:url(../images/xgrid/grid-menu-lock.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/  
+}
+
+.unieap .u-xgird-menu-unlockcell{
+	background-image:url(../images/xgrid/grid-menu-unlock.gif);
+}
+
+.unieap .u-xgird-menu-unlockcellDisabled{
+	background-image:url(../images/xgrid/grid-menu-unlock.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/ 
+}
+
+.unieap .u-xgird-menu-columns{
+	background-image:url(../images/xgrid/grid-menu-columns.gif);
+}
+
+.unieap .u-xgird-menu-unchecked{
+	background-image:url(../images/xgrid/grid-menu-unchecked.gif);
+}
+
+.unieap .u-xgird-menu-checked{
+	background-image:url(../images/xgrid/grid-menu-checked.gif);
+}
+
+.unieap .u-xgird-menu-checkedDisabled{
+	background-image:url(../images/xgrid/grid-menu-checked.gif);
+	filter:alpha(opacity=50);
+	opacity : 0.5;/*FF兼容*/ 
+}
+
+/**
+ * 编辑
+ */
+.unieap .u-xgrid-value-changed{
+	    position:absolute;
+		top:0px;
+		left:0px;
+		width:5px;
+		height:18px;
+		overflow:hidden;
+		font-size:11px;
+}
+
+.unieap .u-xgrid-text{
+	vertical-align:middle;
+	overflow : hidden;
+	position: relative;
+}

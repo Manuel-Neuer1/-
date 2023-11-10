@@ -1,0 +1,100 @@
+.unieap .u-titlepane-widget{
+}
+
+/**
+ * @summary:
+ * 		titlepane组件的title部分的样式
+ */
+.unieap .u-titlepane-title {
+	background:url("../images/layout/titlebg.gif");
+} 
+
+/**
+ * @summary:
+ * 		titlepane组件的title部分标题的样式
+ */
+.unieap .u-titlepane-titlenode {
+	color:#15428B;
+	font-family:tahoma,arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+} 
+
+/**
+ * @summary:
+ * 		titlepane组件的title部分表示展开收缩的标志位样式
+ * 		"+"或者"-"
+ */
+.unieap .u-titlepane-arrownode {
+	color:#15428B;
+	font-family:tahoma,arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+} 
+
+/**
+ * @summary:
+ * 		titlepane组件的title部分右上角的button按钮域的样式
+ */
+.unieap .u-titlepane-buttonfield {
+}
+
+/**
+ * @summary:
+ * 		titlepane组件的title部分右上角的button按钮域的样式
+ */ 
+.unieap .u-titlepane-buttonfield button{
+}
+
+/**
+ * @summary:
+ * 		titlepane组件下拉部分的外层样式
+ */
+.unieap .u-titlepane-content-outer {
+	border:1px #99bbe8 solid;
+	/** 增加背景颜色设置 **/
+	background-color : #FFF;	
+} 
+.unieap .u-titlepane-content-wipe{
+}
+
+.unieap .dijitTabPane .loading,
+.unieap .u-titlepane-content-inner .loading {
+	background-image:url("../images/layout/loading.gif");
+}
+
+
+.dojoxResizeHandle {
+    background-image: url('../images/layout/resize.png');
+} 
+
+.dojoxResizeNW {
+} 
+
+.dojoxResizeNE {
+} 
+.dojoxResizeW {
+} 
+.dojoxResizeN {
+} 
+.dojoxResizeHandleClone {
+}
+
+.unieap .u-titlepane-moveHandle{
+	background:url('../images/layout/dndMove.png');
+}
+
+.unieap .u-contentpane-iframe{
+}
+
+/**
+*Workflow 设置
+**/
+
+/**
+ * @summary:
+ * 		titlepane组件下拉部分的内层样式
+ */
+.unieap .u-titlepane-content-inner {
+	background-color:#F6F7F9 !important;
+}

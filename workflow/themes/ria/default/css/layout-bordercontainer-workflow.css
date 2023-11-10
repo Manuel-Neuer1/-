@@ -1,0 +1,104 @@
+
+.unieap .borderContainer {
+}
+
+.unieap .borderPaneOuter {
+}
+/*面板*/
+.unieap .borderPane {
+	border-top:0px solid #B6BCC2 !important;
+	border-left:1px solid #B6BCC2 !important;
+	border-right:1px solid #B6BCC2 !important;
+	border-bottom:1px solid #B6BCC2 !important;
+}
+
+.unieap .leftBorderPane {
+}
+/*解决IE6下  float的DIV和外层DIV的白边儿*/
+.dj_ie6 .unieap .leftBorderPane {
+}
+
+.unieap .rightBorderPane {
+}
+
+.dj_ie6 .unieap .rightBorderPane {
+}
+
+/*垂直分割条*/
+.unieap .u-border-splitterV {
+	/*cursor:w-resize;*/
+	background:#D8E8FB;
+}
+
+.dj_ie6 .unieap .u-border-splitterV-left {
+}
+
+.dj_ie6 .unieap .u-border-splitterV-right {
+}
+
+/*水平分割条*/
+.unieap .u-border-splitterH {
+	/*cursor:n-resize;*/
+	background:#D8E8FB;
+}
+
+/*标题和收缩条*/
+.unieap .titleNode {
+	background:url("../images/layout/bordertitlebg.gif") repeat;
+}
+
+.unieap .u-border-titleText {
+	color:#15428B;
+	font-family:tahoma,arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.unieap .u-border-titleText-Inner {
+}
+
+.unieap .u-border-titleButton,
+.unieap .u-border-wrapButton{
+}
+
+.unieap .u-border-titleButton-top,
+.unieap .u-border-wrapButton-bottom {
+	background:url("../images/layout/border_top_btn.gif") no-repeat;
+}
+
+.unieap .u-border-titleButton-bottom,
+.unieap .u-border-wrapButton-top {
+	background:url("../images/layout/border_bottom_btn.gif") no-repeat;
+}
+
+.unieap .u-border-titleButton-left,
+.unieap .u-border-wrapButton-right {
+	background:url("../images/layout/border_left_btn.gif") no-repeat;
+}
+
+.unieap .u-border-titleButton-right,
+.unieap .u-border-wrapButton-left {
+	background:url("../images/layout/border_right_btn.gif") no-repeat;
+}
+
+/* 收缩条*/
+/*垂直收缩条*/
+.unieap .u-border-wrapNodeV {
+	background:#D8E8FB;
+	border:1px solid #99BBE8;
+}
+/*水平收缩条*/
+.unieap .u-border-wrapNodeH {
+	background:#D8E8FB;
+	border:1px solid #99BBE8;
+}
+
+.unieap a:hover.u-border-a {
+}
+
+/*拖动条*/
+.unieap .u-border-moveSplitLine {
+	background-color:#99BBE8;
+}
+
+

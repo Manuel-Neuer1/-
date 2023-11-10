@@ -1,0 +1,9 @@
+.unieap .adaptivecontainer{
+	overflow:hidden;
+	position:relative;
+}
+
+.unieap .adaptivepane{
+	position:relative;
+	overflow:hidden;
+}

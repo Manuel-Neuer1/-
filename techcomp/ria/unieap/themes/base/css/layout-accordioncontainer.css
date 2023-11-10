@@ -1,0 +1,76 @@
+.unieap .accordionContainer {
+	border: none;
+}
+
+.unieap .accordioninnerContainer { /* gray, for closed pane */
+	-webkit-transition-property: background-color, border;
+	-moz-transition-property: background-color, border;
+	transition-property: background-color, border;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+.unieap .accordionTitle {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.unieap .accordionTitleHover {
+	
+}
+
+.dj_ie6 .unieap .accordionTitle {
+	
+}
+
+.unieap .accordionContainer .accordionChildWrapper {
+	/* this extends the blue trim styling of the title bar to wrapping around the node.
+	 * done by setting margin
+	 */
+	background-color:#FFFFFF;
+}
+
+.unieap .accordionContainer .accordionContainer-child {
+	/* this is affecting the child widget itself */
+	
+}
+
+.unieap .accordioninnerContainerActive .accordionTitle { /*
+	background-position: 0 -136px;
+	color: #000000;
+	*/
+	
+}
+
+.unieap .accordioninnerContainerSelected .accordionTitle { /*
+	color: #000000;
+	background-position: 0 0;
+	*/
+	/* avoid effect when clicking the title of the open pane */
+	
+}
+/* Hovering open or closed pane */
+.unieap .accordioninnerContainerHover .accordionTitle {
+	/* both open and closed */
+	
+}
+
+.accordionTitle .arrowTextUp,.accordionTitle .arrowTextDown {
+	display: none;
+}
+
+.unieap .accordionTitle .accordionArrow {
+	float:right;
+}
+
+.unieap .accordionTitleHover .accordionArrow {
+	float:right;
+}
+
+.unieap .accordionTitleSelected .accordionArrow {
+	float:right;
+}

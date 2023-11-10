@@ -1,0 +1,189 @@
+input.radio {margin: 0 2px 0 8px;}
+input.radio.first {margin-left:0;}
+input.empty {color: lightgray;}
+code {color: #2f332a;}
+.highlight_red {color:#A60000;}
+.highlight_green {color:#A7F43D;}
+li {list-style: circle;font-size: 12px;}
+li.title {list-style: none;}
+ul.list {margin-left: 17px;}
+
+div.content_wrap {width: 600px;height:380px;}
+div.content_wrap div.left{float: left;width: 250px;}
+div.content_wrap div.right{float: right;width: 340px;}
+div.zTreeDemoBackground {width:100%;height:300px;text-align:left;margin-bottom: 10px;}
+
+/**�޸Ĺ�����*/
+ul.ztree {
+/* 	border: 1px solid #617775; */
+	background: #ffffff;
+	width:97%;
+	height:95%;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding: 0px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.ztree * {
+	font: 12px Tahoma,Arial,Helvetica,"Microsoft YaHei New","Microsoft Yahei","微软雅黑","宋体",SimSun,STXihei,"华文细黑",sans-serif !important;
+	}
+ul.log {border: 1px solid #617775;background: #f0f6e4;width:300px;height:170px;overflow: hidden;}
+ul.log.small {height:45px;}
+ul.log li {color: #666666;list-style: none;padding-left: 10px;}
+ul.log li.dark {background-color: #E3E3E3;}
+
+/* ruler */
+div.ruler {height:20px; width:220px; background-color:#f0f6e4;border: 1px solid #333; margin-bottom: 5px; cursor: pointer}
+div.ruler div.cursor {height:20px; width:30px; background-color:#3C6E31; color:white; text-align: right; padding-right: 5px; cursor: pointer}
+div.selectIcon{
+	background-image: url('images/selectIcon.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 1px solid #a9a9a9;
+	width: 23px !important;
+	height: 23px !important;
+	cursor:pointer;
+}
+
+div.deleteIcon{
+	background-image: url('images/delete.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 1px solid #a9a9a9;
+	width: 23px !important;
+	height: 23px !important;
+	cursor:pointer;
+}
+
+div.form-addicon{
+	background-image: url("images/add.svg");
+	background-color: #FFF;
+	margin: 0px -1px 0px 0px;
+	width : 20px;
+	height: 20px;
+	cursor:pointer;
+}
+
+div.form-deleteicon{
+	background-image: url("images/delete.svg");
+	background-color: #FFF;
+	margin: 0px -1px 0px 0px;
+	width : 20px;
+	height: 20px;
+	cursor:pointer;
+}
+
+div.form-upicon{
+	background-image: url("images/up.svg");
+	background-color: #FFF;
+	margin: 0px -1px 0px 0px;
+	width : 20px;
+	height: 20px;
+	cursor:pointer;
+}
+
+div.form-downicon{
+	background-image: url("images/down.svg");
+	background-color: #FFF;
+	margin: 0px -1px 0px 0px;
+	width : 20px;
+	height: 20px;
+	cursor:pointer;
+}
+
+.ztree li a {
+	    padding: 1px 0px 2px 0px !important;
+	    margin-bottom:4px !important;
+}
+
+.ztree li a:hover{
+	text-decoration:none !important;
+	}
+
+.ztree li span.button.category_ico_open{
+	background-position:-110px -17px;
+	margin-left: 2px;
+	}
+	
+.ztree li span.button.category_ico_close,.ztree li span.button.category_ico_docu{
+	background-position:-110px 0px;
+	margin-left: 2px;
+	}
+	
+.ztree li span.button.entity_ico_open, .ztree li span.button.entity_ico_close, .ztree li span.button.entity_ico_docu{
+	background-image: url("../css/img/theme_blue/table.png");
+	magin-left:2px;
+}
+.ztree li span.button.property_ico_open, .ztree li span.button.property_ico_close, .ztree li span.button.property_ico_docu{
+	background-image: url("../css/img/theme_blue/access.gif");
+}
+
+/* table */
+.ztree li span.button.table_ico_open, .ztree li span.button.table_ico_close, .ztree li span.button.table_ico_docu{
+	background-image: url("../css/img/theme_blue/table.png");
+}
+/* titlepane */
+.ztree li span.button.titlepane_ico_open, .ztree li span.button.titlepane_ico_close, .ztree li span.button.titlepane_ico_docu{
+	background-image: url("../css/img/theme_blue/titlepane.png");
+}
+/* form */
+.ztree li span.button.form_ico_open, .ztree li span.button.form_ico_close, .ztree li span.button.form_ico_docu{
+	background-image: url("../css/img/theme_blue/form.png");
+}
+/* img */
+.ztree li span.button.img_ico_open, .ztree li span.button.img_ico_close, .ztree li span.button.img_ico_docu{
+	background-image: url("../css/img/theme_blue/img.png");
+}
+/* uploader */
+.ztree li span.button.uploader_ico_open, .ztree li span.button.uploader_ico_close, .ztree li span.button.uploader_ico_docu{
+	background-image: url("../css/img/theme_blue/uploader.png");
+}
+
+/* uploader */
+.ztree li span.button.textarea_ico_open, .ztree li span.button.textarea_ico_close, .ztree li span.button.textarea_ico_docu{
+	background-image: url("../css/img/theme_blue/input.png");
+}
+/* grid */
+.ztree li span.button.grid_ico_open, .ztree li span.button.grid_ico_close, .ztree li span.button.grid_ico_docu{
+	background-image: url("../css/img/theme_blue/grid.png");
+}
+/* groupbox */
+.ztree li span.button.groupbox_ico_open, .ztree li span.button.groupbox_ico_close, .ztree li span.button.groupbox_ico_docu{
+	background-image: url("../css/img/theme_blue/groupbox.png");
+}
+
+/* tablelayout */
+.ztree li span.button.tablelayout_ico_open, .ztree li span.button.tablelayout_ico_close, .ztree li span.button.tablelayout_ico_docu{
+	background-image: url("../css/img/theme_blue/tablelayout.png");
+}
+/* td */
+.ztree li span.button.td_ico_open, .ztree li span.button.td_ico_close, .ztree li span.button.td_ico_docu{
+	background-image: url("../css/img/theme_blue/td.png");
+}
+/* tr */
+.ztree li span.button.tr_ico_open, .ztree li span.button.tr_ico_close, .ztree li span.button.tr_ico_docu{
+	background-image: url("../css/img/theme_blue/tr.png");
+}
+/* textbox */
+.ztree li span.button.textbox_ico_open, .ztree li span.button.textbox_ico_close, .ztree li span.button.textbox_ico_docu{
+	background-image: url("../css/img/theme_blue/input.png");
+}
+.entityTreeContainer
+/* datetextbox */
+.ztree li span.button.datetextbox_ico_open, .ztree li span.button.datetextbox_ico_close, .ztree li span.button.datetextbox_ico_docu{
+	background-image: url("../css/img/theme_blue/date.png");
+}
+/* button */
+.ztree li span.button.button_ico_open, .ztree li span.button.button_ico_close, .ztree li span.button.button_ico_docu{
+	background-image: url("../css/img/theme_blue/button.png");
+}
+/* combobox */
+.ztree li span.button.combobox_ico_open, .ztree li span.button.combobox_ico_close, .ztree li span.button.combobox_ico_docu{
+	background-image: url("../css/img/theme_blue/select.png");
+}
+/* hiddenfield */
+.ztree li span.button.hiddenfield_ico_open, .ztree li span.button.hiddenfield_ico_close, .ztree li span.button.hiddenfield_ico_docu{
+	background-image: url("../css/img/theme_blue/input.png");
+}
+.ztree li span {line-height:18px !important; margin-right:2px;margin-left:4px;cursor:pointer !important}

@@ -1,0 +1,25 @@
+//base
+.unieap .u-grid-rowbar-detail{
+	width:16px;	
+}
+
+.unieap .u-grid-detail-plus{
+	width:16px;
+	height : 16px;
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.unieap .u-grid-detail-minus{
+	width:16px;
+	height : 16px;
+	background-position:center;
+	cursor:pointer;
+}
+
+.unieap .u-grid-row-detail-table{
+	font-size: 12px;
+	table-layout: fixed;
+	width:100%;
+	position:relative;
+}

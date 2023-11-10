@@ -1,0 +1,158 @@
+/* master header */
+.unieap .u-grid-master-header {
+	border: 1px solid #dadada;
+	background: url(../images/grid/header-bg.gif)  repeat-x top #ebecee;
+}
+
+/* master view */
+.unieap .u-grid-master-views {
+	border-left:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+	border-right:1px solid #dadada;
+}
+
+
+.unieap .u-grid-master-foot{
+	border : 1px solid #dadada;
+	background-color:#f2f2f2;
+}
+.unieap .u-grid-master-foot .express{
+	color:#007a79;
+}
+
+.unieap .u-grid-view-cell{
+	background-color:#f8f8f8;
+}
+/**
+* 锁定视图横向滚动条样式
+*/
+.unieap .u-grid-noscrollbar{
+	background : #000;
+}
+
+.unieap .u-grid-header {
+	background: url(../images/grid/header-bg.gif)  repeat-x top;
+	background-color:  #ebecee;
+}
+
+
+.unieap .u-grid-scrollbox {
+	background-color: #fefefe;
+}
+
+.unieap .u-grid-header-content .u-grid-rowbar-table{
+	border-right:1px solid #cccccc;
+}
+.unieap .u-grid-contentbox{
+	background-color:#e9e9e9;
+}
+
+
+
+.unieap .u-grid-row-odd {
+	background-color: #f8f8f8;
+}
+
+.unieap .u-grid-row-over {
+	background-color: #efefef;
+}
+.unieap .u-grid-row-selected {
+	/** 当grid有复选框时，选中复选框，背景颜色优先级应该提高 **/
+	background-color:#e2e8f1 !important;
+}
+.unieap .u-grid-row-current {
+	background-color: #efefef;
+}
+
+.unieap .u-grid-row-highlight {
+	background-color: #efefef;
+}
+
+.unieap .u-grid-locked-content-rows {
+	background-color:white;
+}
+.unieap .u-grid-locked-content-rows .u-grid-cell {	
+	border-bottom:0px solid #eee;
+	border-top:1px solid #eee;
+	border-right:1px solid #eee;
+}
+
+.unieap .u-grid-locked-content-rows .u-grid-toplockedrow .u-grid-cell {	
+	border-top:1px solid #7f9db9;
+}
+
+.unieap .u-grid-cell {	
+	border-bottom:1px solid #eee !important;
+
+}
+
+/** 修正MasterDetail中嵌套的Grid表头分隔线不明线的bug **/
+.unieap .u-grid-hcell {
+	border-right : 1px solid #d1d1d1 !important;
+}
+
+
+.unieap .u-grid-rowbar {
+	background: url(../images/grid/header-bg.gif)  repeat-x top #ebecee;
+	border-right: 1px solid #cccccc;
+}
+
+
+/**
+*grid改变列宽时出现拖动条
+*/
+.unieap .u-grid-resize-proxy{
+	border-left : 1px dashed #777777;
+}
+/**
+*定义主排序的样式
+*/
+.unieap .u-grid-sort-primary{
+	background: url(../images/grid/header-over.gif) repeat-x top #D2DCEA !important;
+	border-bottom-color:#d2dcea;
+}
+/**
+*定义主排序的升序样式
+*/
+.unieap .u-grid-sort-primary .u-grid-sort-up{
+	 background:transparent url(../images/grid/sort_asc.gif) no-repeat scroll right 30%;
+}
+/**
+*定义主排序的降序样式
+*/
+.unieap .u-grid-sort-primary .u-grid-sort-down{
+	 background:transparent url(../images/grid/sort_desc.gif) no-repeat scroll right 30%;
+}
+
+/**
+*定义次排序的升序样式和定义次排序的降序样式
+*/
+.unieap .u-grid-sort-secondary .u-grid-sort-up , .u-grid-sort-down{
+	background:transparent url(../images/grid/sort_secondary.gif) no-repeat scroll right 55%;
+}
+/**
+ * 编辑
+ */
+.unieap .u-grid-value-changed{
+		background: url(../images/grid/changed.gif) no-repeat;
+}
+
+.unieap .grid-pagecount-wait-img{
+	background:  url(../images/grid/grid-wait.png) no-repeat center center;
+}
+
+/**
+*工作流定制
+*/
+.unieap .u-grid-content .u-grid-cell{
+	position: relative;
+	border-right : 1px solid #8F8F8F;
+	
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.unieap .u-grid-header .u-grid-cell {
+	border-right : 1px solid #8F8F8F !important;
+}

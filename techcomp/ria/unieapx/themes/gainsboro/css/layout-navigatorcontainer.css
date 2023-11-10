@@ -1,0 +1,126 @@
+/*-------Container-------*/
+.unieap .tabPaneWrapper {
+	background: #fff;
+}
+
+.tabSpacer {
+	font-size: 1px;
+}
+
+.unieap .arrowsImage{
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	width: 7px;
+	height:12px;
+	margin:0px 5px -2px -2px;
+	padding-right: 5px;
+	/* background: url("../images/layout/arrow.gif") repeat-x; */
+	background: url("../images/layout/arrow.png") no-repeat;
+}
+
+/*返回按钮*/
+/*
+.unieap .disableBackDiv{
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: inline-block;
+	zoom:1;
+	*display:inline;
+	margin-top: 2px;
+	margin-left: 4px;
+	background: url("../images/layout/disable_back.png") no-repeat;
+}
+*/
+/*
+.unieap .backDiv{
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: inline-block;
+	zoom:1;
+	*display:inline;
+	margin-top: 2px;
+	margin-left: 4px;
+	background: url("../images/layout/back.png") no-repeat;
+}
+*/
+.unieap .refreshDiv{
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: inline-block;
+	zoom:1;
+	*display:inline;
+	margin-top: 3px;
+	margin-left: 4px;
+	background: url("../images/layout/refresh.png") no-repeat;
+}
+/*
+.unieap .disableNextDiv{
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: inline-block;
+	zoom:1;
+	*display:inline;
+	margin-top: 2px;
+	margin-left: 4px;
+	background: url("../images/layout/disable_next.png") no-repeat;
+}
+*/
+/*Tab a标签*/
+.unieap a.u-a-tab {
+	color: #ffffff;
+}
+
+
+/*------- top -------*/
+.unieap .navigator-scrolling-containerTop {
+	/*background: url("../images/layout/button-bg.png") repeat-x;*/
+	background: #f3f3f3;
+}
+
+
+/* sun button背景*/
+.unieap .tabContainerTop-tabs .navigator {
+	/*background:url("../images/layout/tab-left.gif") no-repeat top left;*/
+}
+
+/* sun button hover 背景*/
+.unieap a:hover.u-a-navigatorTop {
+	/*background: #e2e2e2 url("../images/layout/mainNavBg.gif") repeat-x !important;*/
+}
+.unieap a:visited.u-a-navigatorTop{
+	color: blue;
+}
+
+.unieap .tabContainerBottom-tabs .tabInnerDiv,.unieap .navigatorContainerTop-tabs .tabInnerDiv{
+	font-family: tahoma, arial, verdana, sans-serif;
+	font-size: 12px;
+}
+
+/*------- bottom -------*/
+.unieap .tabContainerBottom .tab-scrolling-containerBottom {
+	background-color: #d3e0f2;
+}
+
+/*------- left -------*/
+.unieap .tabContainerLeft .tab-scrolling-containerLeft {
+	background-color: #d3e0f2;
+}
+
+.unieap .tabLabel{
+	font-family: tahoma, arial, verdana, sans-serif;
+	font-size: 12px;
+}
+
+.unieap .navigatorInnerDiv .tabLabel{
+	line-height:26px;
+}
+
+/*------- right -------*/
+.unieap .tabContainerRight .tab-scrolling-containerRight {
+	background-color: #d3e0f2;
+}

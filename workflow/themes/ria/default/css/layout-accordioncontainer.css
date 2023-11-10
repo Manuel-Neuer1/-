@@ -1,0 +1,80 @@
+.unieap .accordioninnerContainer {
+	background-color: #efefef;
+	/* gray, for closed pane */
+	border: solid 1px #b5bcc7;
+	margin-bottom: 1px;
+}
+
+.unieap .accordioninnerContainerSelected {
+	border-color: #769dc0;
+	background-color: #cfe5fa;
+}
+
+.unieap .accordioninnerContainerActive {
+	border: 1px solid #769dc0;
+	background-color: #7dbefa;
+}
+
+.unieap .accordioninnerContainerHover,
+.unieap .accordioninnerContainerSelectedActive{
+	border: 1px solid #769dc0;
+	background-color: #d1e0f4;
+}
+
+.unieap .accordionContainer .accordionChildWrapper {
+	border-top: 1px solid #769dc0;
+	margin: 0;
+	padding: 2px;
+	overflow: hidden;
+}
+.unieap .accordionContainer .accordionChildWrapper>.unieap-container{
+	overflow: auto;
+}
+
+.unieap .accordioninnerContainerSelectedHover .accordionChildWrapper,
+.unieap .accordioninnerContainerSelectedActive .accordionChildWrapper{
+	background-color: #ffffff;
+	border-top: 1px solid #769dc0 !important;
+}
+
+.unieap .accordionTitle {
+	background-color: transparent;
+	background: url("../images/layout/accordion.png");
+	padding: 3px 7px 1px 7px;
+	min-height: 17px;
+	color: #4a4a4a;
+}
+
+.dj_ie6 .unieap .accordionTitle {
+	background-image: none;
+}
+
+.unieap .accordionIcon{
+	width:16px;
+	height:16px;
+	margin-right: 5px;
+}
+
+.unieap .accordionTitleFocus {
+	height: 20px;
+	outline: none;
+}
+
+.unieap .accordionTitleFocus span,.unieap .accordionTitleFocus img {
+	line-height: 20px;
+}
+
+.unieap .accordionTitle .accordionArrow {
+	background-image: url("../images/layout/accordionArrow.png");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-top: 2px;
+}
+.unieap .accordionTitle.accordionTitleHover .accordionArrow {
+	background-image:url("../images/layout/accordionArrowHover.png");
+}
+
+.unieap .accordionTitle.accordionTitleSelected .accordionArrow {
+	background-image: url("../images/layout/accordionArrowSelected.png");
+}

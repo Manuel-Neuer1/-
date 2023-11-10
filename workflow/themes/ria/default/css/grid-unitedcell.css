@@ -1,0 +1,17 @@
+/**
+ * 合并单元格
+ */
+.unieap .u-grid-unitedCellLayer{
+	background:#fff;
+}
+.unieap .u-grid-unitedCell{
+	background-color:#aaa;
+}
+
+.unieap .u-grid-unitedCell-inner{
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.unieap .u-grid-united-group{
+	border-bottom: solid 1px #7f9db9;
+}

@@ -1,0 +1,44 @@
+.unieap .quicksearchIcon {
+	padding-right: 5px;
+	background-image: url("../images/form/quicksearch/qsfind.png") center !important;
+	border-left: 0;
+	width: 24px;
+	height: 22px;
+}
+
+.unieap .quicksearchDeleteIcon {
+	padding-right: 5px;
+	background-image: url("../images/form/quicksearch/qsclear.gif") center !important;
+	border-left: 0;
+	width: 24px;
+	height: 22px;
+}
+
+.unieap .quicksearchPrompt {
+	color: gray;
+}
+
+
+.unieap .lemis-icon-formqsfind {
+	background: url("../images/form/quicksearch/qsfind.png") center no-repeat !important;
+	cursor: pointer;
+	width: 24px;
+	height: 22px;
+	border-left: 0;
+}
+
+.unieap .lemis-icon-formqsfind-dis {
+	background: url('../images/form/quicksearch/qsfind.png') center no-repeat !important;
+	cursor: default;
+	width: 24px;
+	height: 22px;
+	border-left: 0;
+}
+
+.unieap .lemis-icon-formqsdel {
+	background: url("../images/form/quicksearch/qsclear.gif") center no-repeat !important;
+	cursor: pointer;
+	width: 24px;
+	height: 22px;
+	border-left: 0;
+}

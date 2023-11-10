@@ -1,0 +1,93 @@
+.unieap .u-form-slider-x{
+	height: 15px;
+}
+
+.unieap .u-form-slider-x .u-form-slider-leftcap{
+	width: 7px;
+	height: 15px;
+	background: url(../images/form/slider/slider-x-bg.png);
+	background-position: 0 -26px;
+}
+
+.unieap .u-form-slider-x .u-form-slider-rightcap{
+	width: 7px;
+	height: 15px;
+	background: url(../images/form/slider/slider-x-bg.png);
+	background-position: 0 -48px;
+}
+
+.unieap .u-form-slider-x .u-form-slider-rail{
+	height: 15px;
+	background: url(../images/form/slider/slider-x-bg.png) repeat-x;
+	background-position: 0 -70px;
+	left: 7px;
+}
+
+.unieap .u-form-slider-x .u-form-slider-progress{
+	height: 15px;
+	background: url(../images/form/slider/slider-x-bg.png) repeat-x;
+	background-position: 0 -4px;
+}
+
+.unieap .u-form-slider-x .u-form-slider-thumb{
+	width: 14px;
+	height: 15px;
+	background: url(../images/form/slider/slider-x-thumb.png) no-repeat;
+}
+
+.unieap .u-form-slider-y{
+	width: 15px;
+}
+
+.unieap .u-form-slider-y .u-form-slider-leftcap{
+	width: 15px;
+	height: 7px;
+	background: url(../images/form/slider/slider-y-bg.png) no-repeat;
+	background-position: -26px 0;
+}
+
+.unieap .u-form-slider-y .u-form-slider-rightcap{
+	width: 15px;
+	height: 7px;
+	background-image: url(../images/form/slider/slider-y-bg.png);
+	background-position: -48px 0;
+}
+
+.unieap .u-form-slider-y .u-form-slider-rail{
+	width: 15px;
+	background: url(../images/form/slider/slider-y-bg.png) repeat-y;
+	background-position: -70px 0;
+	top: 7px;
+}
+
+.unieap .u-form-slider-y .u-form-slider-progress{
+	width: 15px;
+	background: url(../images/form/slider/slider-y-bg.png) repeat-y;
+	background-position: -4px 0;
+}
+
+.unieap .u-form-slider-y .u-form-slider-thumb{
+	width: 15px;
+	height: 14px;
+	background: url(../images/form/slider/slider-y-thumb.png) no-repeat;
+}
+
+.unieap .u-form-slider-x .u-form-slider-disabled .u-form-slider-leftcap,
+.unieap .u-form-slider-x .u-form-slider-disabled .u-form-slider-progress,
+.unieap .u-form-slider-x .u-form-slider-disabled .u-form-slider-rightcap{
+	background-image: url(../images/form/slider/disabled-slider-x-bg.png);
+}
+
+.unieap .u-form-slider-x .u-form-slider-disabled .u-form-slider-thumb {
+	background-image: url(../images/form/slider/disabled-slider-x-thumb.png);
+}
+
+.unieap .u-form-slider-y .u-form-slider-disabled .u-form-slider-leftcap,
+.unieap .u-form-slider-y .u-form-slider-disabled .u-form-slider-progress,
+.unieap .u-form-slider-y .u-form-slider-disabled .u-form-slider-rightcap{
+	background-image: url(../images/form/slider/disabled-slider-y-bg.png);
+}
+
+.unieap .u-form-slider-y .u-form-slider-disabled .u-form-slider-thumb{
+	background-image: url(../images/form/slider/disabled-slider-y-thumb.png);
+}

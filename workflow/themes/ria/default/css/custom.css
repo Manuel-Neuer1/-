@@ -1,0 +1,51 @@
+.unieap .u-dlg{
+	box-shadow:0 0 15px rgba(0, 0, 0, 0.7);
+}
+.unieap .u-xdlg{
+	box-shadow:0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.unieap .tab-scrolling-container .tab-scrolling-containerTop{
+	border:0px;
+}
+
+.unieap .u-dlg-bgMaskDialog-IE {
+	background-color: #000000;
+	filter: Alpha(Opacity ="50");
+	position: absolute;
+	z-index: 2998;
+}
+	
+.unieap .u-dlg-bgMaskDialog-notIE {
+	background-color: #000000;
+	filter: Alpha(Opacity ="50");
+	opacity: 0.5;
+	position: absolute;
+	z-index: 2998;
+} 
+
+.unieap .u-xdlg-bgMaskDialog-IE {
+	background-color: #000000;
+	filter: Alpha(Opacity ="50");
+	position: absolute;
+	z-index: 998;
+}
+	
+.unieap .u-xdlg-bgMaskDialog-notIE {
+	background-color: #000000;
+	filter: Alpha(Opacity ="50");
+	opacity: 0.5;
+	position: absolute;
+	z-index: 998;
+}
+
+/**
+*��������
+*/
+.unieap .u-form-field {
+	border-radius:5px 5px 5px 5px;
+}
+
+.unieap .u-combobox-list{
+	border-radius:0px 0px 0px 0px;
+}

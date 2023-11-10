@@ -1,0 +1,226 @@
+/*@import url("../form/button/button.css");*/
+/** 对话框外层容器样式 **/
+.unieap .u-xdlg table {font-size:12px; }
+.unieap .u-xdlg{
+	background-color:#FFF;
+	position:absolute;
+}
+/** 头部样式 **/
+.unieap .u-xdlg-mt{
+	height:23px;
+	width:100%;
+	overflow:hidden;
+	background : url("../images/xdialog/mt.png") repeat-x ;	
+}
+/** 头部左上角样式 **/
+.unieap .u-xdlg-mtl{
+	height:23px;
+	width:5px;
+	overflow:hidden;
+	float:left;
+	background : url("../images/xdialog/mtl.png") repeat-x ;	
+}
+/** 头部右上角样式 **/
+.unieap .u-xdlg-mtr{
+	height:23px;
+	width:5px;
+	overflow:hidden;
+	float:right;
+	background : url("../images/xdialog/mtr.png") repeat-x ;	
+}
+/** 头部内容样式 **/
+.unieap .u-xdlg-mtc{
+	height:23px;
+	cursor:default;
+	overflow:hidden;
+}
+/** 头部文字区域样式 **/
+.unieap .u-xdlg-mtt{
+	height:23px;
+	overflow:hidden;
+	font-size: 12px ;
+	font-weight: bold;
+	float:left;
+	color : #FFF;
+	cursor:default;
+	padding-left:5px;
+	line-height:23px;
+}
+/** 头部按钮区域样式 **/
+.unieap .u-xdlg-mtb{
+	height:23px;
+	float:right;
+	cursor:default;
+	line-height:23px;
+	width: 33px;
+	overflow:hidden;
+}
+/** 头部放大按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-be{
+	float:right;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/xdialog/be.gif") no-repeat ;
+}
+/** 头部缩小按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-bs{
+	float:right;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/xdialog/bs.gif") no-repeat ;
+}
+/** 头部关闭按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-bc{
+	float:right;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/xdialog/bc.gif") no-repeat ;
+}
+/** 内容区域样式 **/
+.unieap .u-xdlg-mm{
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+
+/** 等待载入图标 **/
+.unieap .u-xdlg-mm .u-xdlg-loading {
+	background:  url(../images/loading/loading-xhr.gif) no-repeat center center;
+}
+
+/** 左边框样式 **/
+.unieap .u-xdlg-ml{
+	float:left;
+	width: 5px;	
+	overflow:hidden;
+	height:100%;
+	background : url("../images/xdialog/ml.png") repeat-y ;
+}
+.dj_ie6 .unieap .u-xdlg-ml{
+	margin-right:-3px;
+}
+/** 右边框样式 **/
+.unieap .u-xdlg-mr{
+	float:right;
+	width: 5px;
+	cursor:e-resize;
+	overflow:hidden;
+	height:100%;
+	background : url("../images/xdialog/mr.png") repeat-y ;	
+}
+.dj_ie6 .unieap .u-xdlg-mr{
+	margin-left:-3px;
+}
+/** 中间内容样式 **/
+.unieap .u-xdlg-mmm{
+	width :auto;
+	height : 100%;
+	overflow : hidden;
+}
+/** 自定义内容外层样式 **/
+.unieap .u-xdlg-mmf{
+	width:100%;
+	overflow:hidden;
+}
+/** 自定义内容样式 **/
+.unieap .u-xdlg-mmc{
+	width:100%;
+	height:100%;
+	overflow:auto;
+	font-size : 12px;
+	position:relative;
+}
+/** 按钮定义区域样式 **/
+.unieap .u-xdlg-mmb{
+	text-align:center;	
+	font-size:12px;
+	padding-left:5px;
+	padding-top:5px;
+    padding-right:5px;
+    height:34px;
+    background:transparent url(../images/xdialog/bottom-bg.jpg) repeat-x;
+}
+/** 底部边框样式 **/
+.unieap .u-xdlg-mb{
+	height:5px;
+	width: 100%;
+	overflow:hidden;
+	cursor:s-resize;
+	background : url("../images/xdialog/mb.png") repeat-x ;	
+}
+/** 底部左下角边框样式 **/
+.unieap .u-xdlg-mbl{
+	height:5px;
+	width: 5px;
+	float:left;
+	overflow:hidden;
+	background : url("../images/xdialog/mbl.png") no-repeat ;	
+}
+/** 底部右下角边框样式 **/
+.unieap .u-xdlg-mbr{
+	height:5px;
+	width: 5px;
+	float:right;
+	cursor:se-resize;
+	overflow:hidden;
+	background : url("../images/xdialog/mbr.png") no-repeat ;	
+}
+
+/**  在对话框上再次弹出对话框时，对前一对话框进行遮挡的层 **/
+.unieap .u-xdlg-modalDiv{
+   background-color:#c3daf9;
+   border:1px solid #6593cf;
+   overflow:hidden;
+   position:absolute;
+   left:0;
+   top:0;
+   filter:Alpha(Opacity="50");
+    opacity:.50;
+}
+
+.unieap .u-xdlg-moveDiv{
+   background-color:#c3daf9;
+   filter:Alpha(Opacity="50");
+   border:1px solid #6593cf;
+   overflow:hidden;
+   position:absolute;
+   left:0;
+  top:0;
+  opacity:.50;
+}
+.unieap .messageBg table td{
+      font-family:宋体;
+      font-size:12px;
+}
+.questionIcon {
+width:32px;
+height:32px;
+background:url(../images/xdialog/icon-question.gif) center center no-repeat
+}
+
+.errorIcon {
+width:32px;
+height:32px;
+background:url(../images/xdialog/icon-error.gif) center center no-repeat
+}
+
+.infoIcon {
+width:32px;
+height:32px;
+background:url(../images/xdialog/icon-info.gif) center center no-repeat
+}
+
+.warnIcon {
+width:32px;
+height:32px;
+background:url(../images/xdialog/icon-warning.gif) center center no-repeat
+}

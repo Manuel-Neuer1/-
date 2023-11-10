@@ -1,0 +1,92 @@
+/**
+*	ProgressBar基本样式
+**/
+.unieap .dijitProgressBar {
+	margin:2px 0px 2px 0px;
+}
+
+.unieap .dijitProgressBarEmpty{
+}
+
+.unieap .dijitProgressBarTile{
+}
+
+.unieap .dijitProgressBarFull {
+}
+
+.unieap .dijitProgressBarLabel {
+}
+
+.unieap .dijitProgressBarIndeterminate .dijitProgressBarTile {
+}
+
+.dijitProgressBarEmpty{
+	position:relative;overflow:hidden;
+	border:1px solid black; 	
+	z-index:0;			
+}
+
+.dijitProgressBarFull {
+	position:absolute;
+	overflow:hidden;
+	z-index:-1;
+	top:0;
+	width:100%;
+}
+.dj_ie6 .dijitProgressBarFull {
+	height:1.6em;
+}
+
+.dijitProgressBarTile {
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:0;
+	padding:0;
+	width:auto;
+	height:auto;
+	background-attachment: fixed;
+}
+
+.dijit_a11y .dijitProgressBarTile{
+	border-width:4px;
+	border-style:solid;
+	background-color:transparent !important;
+}
+
+.dj_ie6 .dijitProgressBarTile {
+	position:static;
+	height:1.6em;
+}
+
+.dijitProgressBarIndeterminate .dijitProgressBarLabel {
+	visibility:hidden;
+}
+
+.dijitProgressBarIndeterminate .dijitProgressBarTile {
+}
+
+.dijitProgressBarIndeterminateHighContrastImage {
+	display:none;
+}
+
+.dijit_a11y .dijitProgressBarIndeterminate .dijitProgressBarIndeterminateHighContrastImage {
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+}
+
+.dijitProgressBarLabel {
+	display:block;
+	position:static;
+	width:100%;
+	text-align:center;
+}

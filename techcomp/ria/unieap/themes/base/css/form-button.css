@@ -1,0 +1,209 @@
+/**
+ * @summary:
+ * 		设置按钮控件的外层容器样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+
+
+.unieap .u-form-dropBtn{
+	margin:0px;
+	padding: 0px;
+	height: 21px;
+	border: 1px solid #7f9db9;
+	overflow:hidden;
+	vertical-align:middle;
+	display : inline-block;
+	position:relative;
+	white-space:nowrap;
+	outline:none;
+}
+
+.unieap .u-form-dropBtn-button{
+	height:100%;
+	overflow:hidden;
+}
+.unieap .u-form-dropBtn button{
+	border:0px;
+	height:100%;
+	white-space:nowrap;
+	word-break:keep-all;
+}
+
+.unieap .u-form-dropBtn-icon{
+	vertical-align:top;
+	border-left: 1px solid #7f9db9;
+	width: 16px;
+	height: 100%;
+	overflow:hidden;
+	display:inline-block;
+	text-decoration : none;
+	outline:none;
+}
+
+.unieap .u-form-dropBtn-icon-normal {
+}
+
+.unieap .u-form-dropBtn-icon-disabled {
+}
+/**
+ * @summary:
+ * 		设置按钮控件的样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+.unieap .u-form-btn {
+	height:100%;
+	white-space:normal;
+	cursor:pointer;
+	vertical-align:middle;
+	border:none;
+}
+
+.unieap a.u-form-btn-outer,
+.unieap a.u-form-btn-outer-disabled{
+	display:inline-block;
+	border:1px solid #7f9db9;
+	height:21px;
+}
+
+
+.unieap a:hover.u-form-btn-outer{
+}
+
+/**
+ * @summary:
+ * 		设置按钮上文字的样式
+ * @widget:
+ * 		{unieap.form.Button}
+ */
+.unieap .u-form-btn-txt {
+	white-space:nowrap;
+	padding:0;
+	text-align:center;
+	display:inline-block;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.DropDownButton}
+ * @summary:
+ * 		设置下拉按钮控件右侧的下拉图标样式
+ */
+.unieap .u-form-triggerBtnImg{
+	position:absolute;
+	display:block;
+	width:16px;
+	height:16px;
+	margin:0 0 0 3px;
+}
+
+
+/**
+ * @widget:
+ * 		{unieap.form.CheckBox}
+ * @summary:
+ * 		设置复选框的样式
+ */
+.unieap .u-form-chk{
+	width:25px;
+	display:inline-block;
+	vertical-align:middle;
+	zoom : 1;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.RadioButton}
+ * @summary:
+ * 		设置单选按钮的样式
+ */
+.unieap .u-form-rdoBtn{
+	width:25px;
+	display:inline-block;
+	vertical-align:middle;
+	zoom : 1;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.RadioButton、unieap.form.CheckBox}
+ * @summary:
+ * 		设置控件的输入框样式,例如<input type="radio" />和<input type="checkbox" />
+ */
+.unieap .u-form-chkInput {
+	padding: 0px;
+	margin:0px;
+	width: 16px;
+	height: 16px;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置CheckBoxGroup控件和RadioGroup控件的外层样式
+ */
+.unieap .u-form-chkGroup{
+	width: 200px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	zoom : 1;
+}
+
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置设置CheckBoxGroup控件和RadioGroup控件的里层样式。
+ */
+.unieap .u-form-chkGroup-border{
+	white-space: nowrap;
+	width:auto;
+	zoom:100%;
+	overflow:hidden;
+}
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置设置CheckBoxGroup控件和RadioGroup控件的table样式。
+ */
+.unieap .u-form-chkGroup-tab{
+	width:100%;
+	table-layout:fixed;
+}
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置设置CheckBoxGroup控件和RadioGroup控件的里层文本样式。
+ */
+.unieap .u-form-chkGroup-label{
+	word-break:keep-all;
+	height:20px;
+}
+/**
+ * @widget:
+ * 		{unieap.form.CheckBoxGroup,unieap.form.RadioGroup}
+ * @summary:
+ * 		设置设置CheckBoxGroup控件和RadioGroup控件的选择控件样式。
+ */
+.unieap .u-form-chkGroup-cell{
+	width:16px;
+}
+.unieap .u-form-chkGroup-cell .u-form-chk{
+	width : 16px;
+}
+.unieap .u-form-chkGroup-cell .u-form-rdoBtn{
+	width : 16px;
+}
+.dj_ie6 .unieap .u-form-chk, .dj_ie6 .unieap .u-form-rdoBtn, .dj_ie6 .unieap .u-form-chkGroup,.dj_ie6 .unieap .u-form-dropBtn{
+	display:inline;
+}
+.dj_ie7 .unieap .u-form-chk,.dj_ie7 .unieap .u-form-rdoBtn,.dj_ie7 .unieap .u-form-chkGroup ,.dj_ie7 .unieap .u-form-dropBtn{
+	display:inline;
+}

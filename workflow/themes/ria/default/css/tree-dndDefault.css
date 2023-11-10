@@ -1,0 +1,53 @@
+.dojoDndItem {
+}
+
+.dojoDndItemOver {
+	background: #ededed;
+	border-color: #d3d3d3;
+}
+
+.dojoDndItemDragingOver {
+	border-color: #d3d3d3;
+}
+
+.unieapTreeItemOver {
+	background: #ededed;
+}
+
+.dojoDndItemSelected {
+	background: #ccf;
+	color: #444;
+}
+
+.dojoDndItemAnchor {
+	background: #ccf;
+	color: black;
+}
+
+.dojoDndItemOver .dojoDndItemSelected {
+	background: #ededed;
+}
+
+.dojoDndItemOver .dojoDndItemAnchor {
+	background: #ededed;
+}
+
+.dojoDndItemBefore {
+	
+}
+
+.dojoDndItemAfter {
+	
+}
+
+.dojoDndAvatar {
+	font-size: 12px;
+}
+
+.dojoDndAvatarHeader {
+	background: #aaa;
+}
+
+.dojoDndAvatarItem {
+	background: #fff;
+}

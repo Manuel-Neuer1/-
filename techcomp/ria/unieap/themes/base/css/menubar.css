@@ -1,0 +1,9 @@
+.unieap .menuBarItem {
+	display:inline-block;
+	#zoom: 1; 
+	#display:inline; 
+	border:0;
+	padding:0;
+	vertical-align:middle;
+	#vertical-align: auto;	
+}

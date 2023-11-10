@@ -1,0 +1,393 @@
+/**
+ * @summary：
+ * 		表单控件基础部分css样式,包括TextBox、TextBoxWithIcon、InlineEditBox、FileInput等控件样式。
+ * @example:
+ * 以下为TextBoxWitIcon控件的模板样式。
+ * |	①<div class="u-form-widget">
+ * |		②<div class="u-form-field">
+ * | 			③<div class="u-form-modified"></div>
+ * |            ④<div class="u-form-textbox-icon"></div>
+ * |            ⑤<div class="u-form-error"></div>
+ * |			⑥<div class="u-form-textbox-field">
+ * |               ⑦<input class="u-form-textbox-input" />
+ * |            </div>
+ * |			
+ * |        </div>
+ * |	</div>
+ * 对各个部分简述如下:
+ * ①设置整个控件的外层样式。
+ * ②设置控件里层样式，例如边框、高度
+ * ③当控件数据被修改后，设置修改标志的样式
+ * ④设置下拉框样式。例如显示为一个下拉框。
+ * ⑤设置控件错误提示样式
+ * ⑥设置文本框的外层样式
+ * ⑦设置文本框样式
+ */
+
+/*==========================Popup控件样式=======================================*/
+
+/**
+*@widget：
+*		{unieap.form.Popup}
+*@summary：
+*		定义所有弹出容器,即Popup的样式
+*/
+.unieap .u-popupcontainer{
+	position:absolute;
+	z-index:10001;
+	display:block;
+	outline:none;
+	text-decoration:none;
+}
+
+/**
+*@widget：
+*		{unieap.form.Popup}
+*@summary：
+*		定义弹出窗口中Iframe的样式
+*/
+.unieap .u-backgroundIframe{
+	border:0px;
+	/* css滤镜，对ie有效 去掉后datetextbox会出现问题  */
+	filter:Alpha(Opacity="0");
+	position:absolute;
+	z-index:10000;
+	width:0;
+	height:0;
+}
+
+
+/*==========================TextBox、TextBoxWithIcon控件样式=======================*/
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义所有Form组件最外层容器的样式，统一设定宽度等
+*/
+.unieap .u-form-widget{
+	margin : 0;
+	padding : 0px;		
+	width : 200px;
+	height: auto;
+	overflow : hidden;	/*解决：输入域输入文本过长，titlepane缩回再显示传格*/
+	display : inline-block;
+	vertical-align : middle; 
+	zoom : 1;
+}
+/** 必填样式 **/
+.unieap .u-form-required{
+	float : right;
+	margin-top : 4px;
+	width : 6px;
+	height : 6px;
+	color : red;
+	text-align : right;
+	visibility : hidden;
+}
+/**
+*@widget：
+ *		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义组件里层的容器的样式，设定边框、高度等样式
+*/
+.unieap .u-form-field{
+	height : 100%;
+	border : 1px solid #7f9db9;  
+	overflow : hidden;
+	z-index: 2;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义Form组件的修改标识信息，通过float定位在容器的最左边
+*/
+.unieap .u-form-modified{
+	width: 5px; 
+	height: 5px; 
+	float : left;
+	overflow : hidden;
+	visibility : hidden;
+}
+
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义Form组件的错误信息，在组件最右边显示(可以覆盖必填信息)
+*/
+.unieap .u-form-error{
+	float: right; 
+	height: 16px;
+	width: 16px; 
+	margin-top:1px;
+	display:none;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义所有输入域外层容器的样式，设置overflow属性不需要指定width
+*/
+.unieap .u-form-textbox-field{
+	overflow : hidden;
+	zoom:100%;
+	height:100%;
+}
+
+/**
+*@widget：{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：定义所有输入域的样式，去掉边框和内边距并设置宽度为100%
+*/
+.unieap .u-form-textbox-input{
+	border : 0;
+	margin : 0;
+	padding : 2px 1px 1px 0px;
+	margin-right : -1px; 
+	width : 100%;
+	font : 12px Arial,clean,sans-serif;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox}
+*@summary：
+*		定义所有文本输入框不可用的样式，为浅灰色优先级最高	
+*/
+.unieap .u-form-disabled{
+}
+/**
+*@widget：
+*		{unieap.form.TextBox}
+*@summary：
+*		定义所有文本输入框自读的样式
+*/
+.unieap .u-form-readOnly{
+}
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义所有文本输入框外层容器的错误信息样式，目前使其边框变红	
+*/
+.unieap .u-form-textbox-error{
+	border : 1px solid #dd7870;	
+}
+
+.unieap .u-form-textarea-input{
+	border-width:0px;
+	margin:0px;
+	margin-right:-1px; 
+	width: 100%;
+	zoom:1;
+	font:12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;
+}
+
+.dj_ie6 .u-form-textarea-input {
+	margin-top:-1px;	
+}
+
+/**
+*@widget：{unieap.form.TextBox,unieap.form.TextBoxWithIcon}WithIcon
+*@summary：定义所有带图标组件的图标样式，通过float定位在容器的最右边
+*/
+.unieap .u-form-textbox-icon{
+	border-left: 1px solid #7f9db9; 
+	width: 16px; 
+	height: 19px; 
+	float: right; 
+	overflow:hidden;
+	display:block;
+	text-decoration : none;
+	outline:none;
+}
+
+.unieap .u-form-textbox-icon-normal {
+}
+
+.unieap .u-form-textbox-icon-disabled {
+}
+
+
+
+
+/*=============================FileInput控件=====================================*/
+
+/**
+*@widget：
+*		unieap.form.FileInput
+*@summary：
+*		定义文件上传的外层容器样式，指定宽度、高度和相对定位	
+*/
+.unieap .u-form-file{
+	position:relative;
+	height:21px;
+	margin:0px;
+	padding:0px;	
+	width: 200px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	zoom : 1;
+}
+
+/**
+*@widget：
+*		unieap.form.FileInput
+*@summary：
+*		定义文件上传的浏览按钮和取消按钮样式，通过float定位在外层容器右边。用户可以自定义按钮大小和背景样式	
+*/
+.unieap .u-form-file-btn{
+	width : 60px;
+	height:19px;
+	cursor:pointer;
+	font-size:9pt;
+	border:1px solid #7f9db9;
+	line-height:19px;
+	text-align:center;
+	float:right;
+	margin-left:3px;
+}
+.unieap .u-form-file-required{
+	float : right;
+	margin-top : 4px;
+	width : 6px;
+	height : 61px;
+	text-align : right;
+	z-index : 2;
+	background-color : transparent;
+	visibility : hidden;
+}
+/**
+*@widget：
+*		{unieap.form.FileInput}
+*@summary：
+		设置输入域的容器的样式，包括边框样式、高度、左偏移和显示层次等
+*/
+.unieap .u-form-file-fileField{
+	zoom:100%;
+	/*border: 1px solid #7f9db9; */
+	overflow:hidden;
+	position:relative;
+	height:19px;
+	padding-left:5px;
+}
+/**
+*@widget：
+*		{unieap.form.FileInput}
+*@summary：
+*		设置文件上传真实的File组件外层容器样式，使其File的浏览按钮与自定义的按钮右对齐，并使之容器透明显示。
+*/
+.unieap .u-form-file-realFileField{
+	width:62px;
+	position:absolute;
+	height : 20px;
+	right : 65px;
+	top :1px;
+	z-index: 1;
+	opacity:0;
+	filter:alpha(opacity:0);
+}
+
+/*==============================InlineEditBox控件=================================*/
+
+
+.unieap .u-form-inlineWidget{
+	position: relative;	
+	margin:0px;
+	padding: 0px;	
+	width:200px;
+	display:inline-block;
+	text-align:left;
+	vertical-align:middle;
+	zoom : 1;
+}
+
+/**
+*@widget：
+*		{unieap.form.InlineEditBox}
+*@summary：
+*		设置InlineEditBox容器样式及底边线样式
+*/
+.unieap .u-form-inline{
+	width:100%;
+	height:19px;
+	padding:0px;
+	overflow:hidden;
+	border-bottom:1px solid #7f9db9;
+}
+
+/**
+ *@widget：
+ *		{unieap.form.InlineEditBox}
+ *@summary：
+ *		设置显示文本的样式，字体大小、位置、颜色等
+ */
+.unieap .u-form-inline-display{
+	line-height:21px;
+	font-size:12px;
+	white-space:pre;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.dj_ie6 .unieap .u-form-inline-display{
+	word-wrap:break-word;
+}
+
+/*==============================MultilineTexBox控件=================================*/
+.unieap .u-form-multiline-border-transparent {
+	border-color: transparent;
+}
+
+/** 统一处理a标题的linke、visited、hover、active样式 **/
+.unieap a:link.u-a-common{
+	color: #000;
+}
+
+.unieap a:visited.u-a-common{
+	color: #000;
+}
+
+.unieap a:hover.u-a-common{
+	color:#000;
+}
+
+.unieap a:active.u-a-common{
+	color :#000;
+}
+
+.dj_ie6 .unieap .u-form-widget,.dj_ie6 .unieap .u-form-file ,.dj_ie6 .unieap .u-form-inlineWidget{
+	display:inline;
+}
+.dj_ie7 .unieap .u-form-widget,.dj_ie7 .unieap .u-form-file ,.dj_ie7 .unieap .u-form-inlineWidget{
+	display:inline;
+}
+
+.dj_ie7 .unieap .u-form-inlineWidget{
+	background-color: #FFF;
+}
+
+
+.content-loading {
+	width: 140px;
+	height: 20px;
+	left: 35%;
+	position: absolute;
+}
+
+
+.content-loading-text {
+	text-align:left;
+	position: absolute;
+	display: inline-block;
+	padding:2px 0px 10px 25px;
+	font-size:13px;
+	font-family : tahoma, arial, helvetica, sans-serif;
+	font-style :italic;
+	color : #A9A9A9;
+	top: 0px;
+}

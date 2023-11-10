@@ -1,0 +1,341 @@
+/*-------Container-------*/
+.unieap .tabContainer {
+	overflow:hidden;
+	position:relative;
+}
+
+.unieap .tabContainer-nest {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	zoom:1;
+}
+
+.unieap .tab-scrolling-container {
+	position:relative;
+	overflow:hidden;
+}
+
+.unieap .tab-scrolling{
+	position:absolute;
+	_height:100%;
+}
+
+.unieap .tabPaneWrapper {
+	border:1px solid #99bbe8;
+	margin: 0;
+	padding: 0;
+	z-index:2;
+	position:relative;
+}
+
+.tabSpacer {
+}
+
+.unieap .tab {
+	border:1px solid #ccc;
+	line-height:normal;
+	margin-right:4px;
+	padding:0px;
+	cursor:pointer;
+	z-index:3;
+	white-space:nowrap;
+	display:block;
+	text-decoration: none;
+}
+
+.unieap .tabChecked {
+	background-image:none;
+}
+
+.unieap .tab .unieapClosable .closeImage {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+/*Tab a标签*/
+.unieap a.u-a-tab{
+}
+	
+.unieap a:hover.u-a-tab{
+	
+}
+
+
+.unieap .tab-scrolling-container .tabward{
+	position: absolute;
+	z-index:100;
+	cursor:pointer;
+}
+.unieap .tab-scrolling-container .eapMenu{
+	background-repeat:no-repeat;
+	background-position:center;
+	/*TODO*/
+}
+
+/*------- top -------*/
+.unieap .tabContainerTop .tab-scrolling-containerTop {
+	height:23px;
+	_height:24px;
+	border-left:1px solid #99bbe8;
+	border-right:1px solid #99bbe8;
+}
+
+.unieap .tabContainerTop .tabPaneWrapperTop{
+	border-top:none;
+}
+
+.unieap .tabContainerTop-tabs .tab{
+	height:21px;
+}
+
+.unieap .tabContainerTop-tabs .tabChecked {
+	border-bottom-color:white;
+}
+
+.unieap a:hover.u-a-tabTop{
+	border-bottom-color:white;
+}
+
+.unieap .tabContainerTop .eapLeftTop {
+	top:0px;
+	left:0px;
+	width:18px;
+	height:23px;
+}
+.unieap .tabContainerTop .eapRightTop {
+	top:0px;
+	right:18px;
+	width:18px;
+	height:23px;			
+}
+.unieap .tabContainerTop .eapMenuTop {
+	top:0px;
+	right:0px;
+	width:18px;
+	height:23px;
+}
+
+.dj_ie6 .unieap .tabContainerTop .eapMenuTop ,
+.dj_ie6 .unieap .tabContainerTop .eapRightTop {
+	margin-right:-1px;
+}
+
+
+.unieap .tabContainerTop .tabSpacerTop,
+.unieap .tabContainerBottom .tabSpacerBottom {
+	height:1px;
+}
+
+.unieap .tabContainerTop-tabs .tab,
+.unieap .tabContainerBottom-tabs .tab {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.unieap .tabContainerBottom-tabs .tabInnerDiv,
+.unieap .tabContainerTop-tabs .tabInnerDiv {
+	line-height:20px;
+	padding: 0px 5px 0px 5px ;
+}
+/*解决IE6下，存在关闭图片时，tab button向下串位*/
+.dj_ie6 .unieap .tabContainerBottom-tabs .unieapClosable,
+.dj_ie6 .unieap .tabContainerTop-tabs .unieapClosable {
+	margin-top:3px;
+}
+
+.unieap .tabContainerTop-tabs .tab .unieapClosable .closeImage,
+.unieap .tabContainerBottom-tabs .tab .unieapClosable .closeImage{
+	margin-left:5px;
+}
+
+
+/*------- bottom -------*/
+.unieap .tabContainerBottom .tab-scrolling-containerBottom {
+	margin-top: -1px;
+	height:23px;
+	border-left:1px solid #99bbe8;
+	border-right:1px solid #99bbe8;
+}
+
+.unieap .tabContainerBottom .tabPaneWrapperBottom{
+	border-bottom:none;
+}
+
+.unieap .tabContainerBottom-tabs .tab{
+	height:21px;
+}
+
+.unieap .tabContainerBottom-tabs .tabChecked {
+	border-top-color:white;
+}
+
+.unieap a:hover.u-a-tabBottom{
+	border-top-color:white;
+}
+
+.unieap .tabContainerBottom .eapLeftBottom {
+	bottom:0px;
+	left:0px;
+	width:18px;
+	height:23px;
+}
+
+.unieap .tabContainerBottom .eapRightBottom {
+	bottom:0px;
+	right:18px;
+	width:18px;
+	height:23px;			
+}
+.unieap .tabContainerBottom .eapMenuBottom {
+	bottom:0px;
+	right:0px;
+	width:18px;
+	height:23px;
+}
+
+.dj_ie6 .unieap .tabContainerBottom .eapMenuBottom ,
+.dj_ie6 .unieap .tabContainerBottom .eapRightBottom {
+	margin-right:-1px;
+}
+/*------- left -------*/
+.unieap .tabContainerLeft .tab-scrolling-containerLeft {
+	margin-right: -1px;
+	width:23px;
+	height:100%;
+	border-top:1px solid #99bbe8;
+	border-bottom:1px solid #99bbe8;
+	float:left;
+}
+
+.unieap .tabContainerLeft .tabPaneWrapperLeft{
+	border-left:none;
+	height:100%;
+}
+
+.unieap .tabContainerLeft .tabSpacerLeft {
+	width:1px;
+	height:100%;
+	float:left;
+}
+
+.unieap .tabContainerLeft-tabs .tab{
+	width:21px;
+}
+
+.unieap .tabContainerLeft-tabs .tabChecked {
+	border-right-color:white;
+}
+
+.unieap a:hover.u-a-tabLeft{
+	border-right-color:white;
+}
+
+.unieap .tabContainerLeft  .eapUpLeft{
+	top:0px;
+	left:0px;
+	width:23px;
+	height:18px;
+	background-position:top;
+}
+.unieap .tabContainerLeft .eapDownLeft{
+	bottom:18px;
+	left:0px;
+	width:23px;
+	height:18px;
+	background-position:bottom;
+}
+.unieap .tabContainerLeft .eapMenuLeft{
+	left:0px;
+	bottom:0px;
+	width:23px;
+	height:18px;
+}
+
+/*调整tab Button之间的margin*/
+.unieap .tabContainerLeft-tabs .tab,
+.unieap .tabContainerRight-tabs .tab {
+	margin-right:0px;
+	margin-bottom:4px;
+}
+
+.unieap .tabContainerLeft-tabs .tabInnerDiv,
+.unieap .tabContainerRight-tabs .tabInnerDiv {
+	padding:  5px 0px 5px 0px;
+}
+.unieap .tabContainerLeft-tabs .tabInnerDiv .tabLabel,
+.unieap .tabContainerRight-tabs .tabInnerDiv .tabLabel{
+	text-align:center;
+	writing-mode:tb-rl;
+}
+
+.unieap .tabContainerLeft-tabs .tab .unieapClosable .closeImage,
+.unieap .tabContainerRight-tabs .tab .unieapClosable .closeImage {
+	display:block;
+	margin-left:2px;
+}
+
+
+/*------- right -------*/
+.unieap .tabContainerRight .tab-scrolling-containerRight {
+	margin-left: -1px;
+	width:23px;
+	height:100%;
+	border-top:1px solid #99bbe8;
+	border-bottom:1px solid #99bbe8;
+	float:right;
+}
+
+.unieap .tabContainerRight .tabPaneWrapperRight{
+	border-right:none;
+	height:100%;
+}
+
+.unieap .tabContainerRight .tabSpacerRight {
+	width:1px;
+	height:100%;
+	float:right;
+}
+
+.unieap .tabContainerRight-tabs .tab{
+	width:21px;
+}
+
+.unieap .tabContainerRight-tabs .tabChecked {
+	border-left-color:white;
+}
+
+.unieap a:hover.u-a-tabRight{
+	border-left-color:white;
+}
+
+.unieap .tabContainerRight  .eapUpRight {
+	top:0px;
+	width:23px;
+	height:18px;
+	left:0px;
+	background-position:top;
+}
+.unieap .tabContainerRight .eapDownRight {
+	bottom:18px;
+	left:0px;
+	width:23px;
+	height:18px;
+	background-position:bottom;
+}
+.unieap .tabContainerRight .eapMenuRight {
+	right:0px;
+	bottom:0px;
+	width:23px;
+	height:18px;
+}
+
+
+.unieapHidden {
+	display: none !important;
+}
+
+.unieapVisible {
+	display: block !important;	
+}

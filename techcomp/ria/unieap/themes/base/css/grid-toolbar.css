@@ -1,0 +1,192 @@
+/**
+ * 定义grid的toolbar的样式 base
+ */ 
+ 
+.u-grid-master-toolbar {
+    height: 28px;
+    vertical-align: middle;
+    font: 12px Verdana;
+    padding: 0 7px;
+}
+
+.u-grid-master-toolbar span{
+	font-size:13px;
+}
+
+
+/**
+ * 定制翻页显示条数
+ */
+.u-grid-cpagesize-left{
+	margin-right:5px;
+}
+
+.u-grid-cpagesize-right{
+	margin-left:5px;
+	margin-right:1px;
+}
+
+
+/**
+ * 定义翻页的样式
+ */ 
+.u-grid-master-toolbar .u-grid-page {
+    height: 100%;
+    line-height: 26px;
+    overflow: hidden;
+} 
+
+.u-grid-master-toolbar .u-grid-page.left {
+    margin-left: 5px;
+    float: left;
+} 
+
+.u-grid-master-toolbar .u-grid-page.right {
+    float: right;
+} 
+
+.u-grid-master-toolbar table {
+    height: 100%;
+} 
+
+.u-grid-master-toolbar .u-grid-page .ico {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+
+/**
+ * 第一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-first {
+} 
+
+.u-grid-master-toolbar .u-grid-page .u-grid-page-first-disabled {
+}
+
+/**
+ * 上一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-prev {
+} 
+
+.u-grid-master-toolbar .u-grid-page .u-grid-page-prev-disabled {
+}
+
+/**
+ * 下一页
+ */ .u-grid-master-toolbar .u-grid-page .u-grid-page-next {
+}
+.u-grid-master-toolbar .u-grid-page .u-grid-page-next-disabled {
+}
+
+/**
+ * 最后一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-last {
+} 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-last-disabled {
+} 
+
+/**
+ * 页码
+ */
+.u-grid-master-toolbar .u-grid-page .u-grid-page-pageNo {
+    text-align: center;
+    width: 23px;
+} 
+
+
+/**
+ * 客户端导出
+ */
+.unieap .export-c {
+} 
+
+/**
+ * 服务端导出
+ */
+.unieap .export-s {
+} 
+
+/**
+ * 导出选中记录
+ */
+.unieap .export-checked {
+} 
+
+/**
+ * 默认客户端导出
+ */
+.unieap .default-export-c {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+} 
+/**
+ * 默认服务端导出
+ */
+.unieap .default-export-s {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.unieap .default-export-checked {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+} 
+
+/**
+ * 分隔符
+ */
+.unieap .sep {
+    width: 2px;
+    height: 18px;
+    overflow: hidden;
+} 
+
+/**
+ * 打印
+ */
+.unieap .u-grid-print {
+    background: #eee url(../images/grid/toolbar/print.gif) no-repeat center;
+	width:24px;
+	height:24px;
+	display:none;
+	margin-right:5px;
+	
+}
+
+
+.unieap .u-grid-export{
+	display:none;
+	margin-right:5px;
+}
+
+
+
+/**
+*个性化
+*/
+
+.unieap .u-grid-individual{
+	display:none;
+	margin-right:5px;
+}
+
+.unieap .individual{
+}
+.unieap .individual-reset{
+}
+.unieap .default-individual {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+} 

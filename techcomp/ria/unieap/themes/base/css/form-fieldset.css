@@ -1,0 +1,66 @@
+.unieap .u-form-fieldset {
+	margin-bottom: 5px;
+	border: 1px solid #7f9db9;
+	padding: 7px;
+	vertical-align: middle;
+	zoom: 1;
+	overflow: hidden;
+	width: auto;
+}
+
+.unieap .u-form-fieldset-btn {
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	float: left !important;
+	margin-right: 3px;
+	border: 0;
+}
+
+.unieap .u-form-fieldset-label {
+	height: 15px;
+	line-height: 17px;
+}
+
+.unieap .u-form-fieldset-desc {
+	margin-left: 5px;
+	height: 15px;
+	line-height: 17px;
+}
+
+.unieap .dijitClosed .u-form-fieldset-hiddenNode {
+	display: none;
+}
+
+.unieap .dijitOpen .u-form-fieldset-btn {
+}
+
+.unieap .dijitOpen .u-form-fieldset-mouseover .u-form-fieldset-btn {
+	background-position: -15px;
+}
+
+.unieap .dijitClosed .u-form-fieldset-btn {
+	background-position: -30px;
+	margin-left: 1px;
+}
+
+.unieap .dijitClosed .u-form-fieldset-mouseover .u-form-fieldset-btn {
+	background-position: -45px;
+	margin-left: 1px;
+}
+
+.unieap .u-form-fieldset legend {
+}
+
+.dj_ie .unieap .u-form-fieldset legend {
+	margin-bottom: 7px;
+}
+
+.dj_ie .unieap .u-form-fieldset {
+	padding-top: 0;
+	margin: 0px 2px 0px 2px;
+}
+
+.dj_ie6 .u-form-fieldset-bwrap {
+	zoom: 1;
+}

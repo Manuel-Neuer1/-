@@ -1,0 +1,60 @@
+/**
+ * 个性化功能 base
+ */
+.unieap .u-grid-custom-div{
+	width:100%;
+	height:100%;
+	background: #eee;
+}
+.unieap .u-grid-custom-up{
+	border:1px solid #919292;
+	padding:0px 10px 0px 10px !important;
+	background:#fff url("../images/form/button-bg.gif") repeat-x top left;
+	margin-bottom:3px;
+	margin-left:5px;
+	height:21px;
+	white-space: normal;
+	position: absolute;
+	width:60px;
+	right:10px;
+	top:25px;
+}
+.unieap .u-grid-custom-down{
+	border:1px solid #919292;
+	padding:0px 10px 0px 10px !important;
+	background:#fff url("../images/form/button-bg.gif") repeat-x top left;
+	margin-bottom:3px;
+	margin-left:5px;
+	height:21px;
+	white-space: normal;
+	position: absolute;
+	width:60px;
+	top:50px;
+	right:10px;
+}
+.unieap .u-grid-custom-save{
+	border:1px solid #919292;
+	padding:0px 10px 0px 10px !important;
+	background:#fff url("../images/form/button-bg.gif") repeat-x top left;
+	margin-bottom:3px;
+	margin-left:5px;
+	height:21px;
+	white-space: normal;
+	position: absolute;
+	width:60px;
+	bottom:10px;
+	right:75px;
+}
+.unieap .u-grid-custom-apply{
+	border:1px solid #919292;
+	padding:0px 10px 0px 10px !important;
+	background:#fff url("../images/form/button-bg.gif") repeat-x top left;
+	margin-bottom:3px;
+	margin-left:5px;
+	height:21px;
+	white-space: normal;
+	position: absolute;
+	width:60px;
+	bottom:10px;
+	right:10px;
+}

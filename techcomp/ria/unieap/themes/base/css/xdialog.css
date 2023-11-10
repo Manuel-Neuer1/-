@@ -1,0 +1,240 @@
+/*@import url("../form/button/button.css");*/
+/** 对话框外层容器样式 **/
+.unieap .u-xdlg table {
+	
+}
+
+.unieap .u-xdlg {
+	position: absolute;
+	z-index: 999;
+}
+/** 头部样式 **/
+.unieap .u-xdlg-mt {
+	height: 23px;
+	width: 100%;
+	overflow: hidden;
+}
+/** 头部左上角样式 **/
+.unieap .u-xdlg-mtl {
+	height: 23px;
+	width: 5px;
+	overflow: hidden;
+	float: left;
+}
+/** 头部右上角样式 **/
+.unieap .u-xdlg-mtr {
+	height: 23px;
+	width: 5px;
+	overflow: hidden;
+	float: right;
+}
+/** 头部内容样式 **/
+.unieap .u-xdlg-mtc {
+	height: 23px;
+	cursor: default;
+	overflow: hidden;
+	-moz-user-select: -moz-none;
+}
+/** 头部文字区域样式 **/
+.unieap .u-xdlg-mtt {
+	height: 23px;
+	overflow: hidden;
+	float: left;
+	cursor: default;
+	padding-left: 5px;
+	line-height: 23px;
+}
+/** 头部按钮区域样式 **/
+.unieap .u-xdlg-mtb {
+	height: 23px;
+	float: right;
+	cursor: default;
+	line-height: 23px;
+	width: 61px;
+	overflow: hidden;
+}
+/** 头部放大按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-be {
+	float: left;
+	margin-top: 3px;
+	width: 24px;
+	height: 18px;
+	overflow: hidden;
+	cursor: pointer;
+}
+/** 头部缩小按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-bs {
+	float: left;
+	margin-top: 4px;
+	width: 15px;
+	height: 14px;
+	overflow: hidden;
+	cursor: pointer;
+}
+/** 头部关闭按钮样式 **/
+.unieap .u-xdlg-mtb .u-xdlg-bc {
+	float: right;
+	margin-top: 3px;
+	width: 36px;
+	height: 18px;
+	overflow: hidden;
+	cursor: pointer;
+}
+/** 内容区域样式 **/
+.unieap .u-xdlg-mm {
+	width: 100%;
+	padding: 0px;
+	overflow: hidden;
+}
+
+/** 等待载入图标 **/
+.unieap .u-xdlg-mm .u-xdlg-loading {
+	background-position: center;
+	cursor: wait;
+}
+
+/** 左边框样式 **/
+.unieap .u-xdlg-ml {
+	float: left;
+	width: 5px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.dj_ie6 .unieap .u-xdlg-ml {
+	margin-right: -3px;
+}
+/** 右边框样式 **/
+.unieap .u-xdlg-mr {
+	float: right;
+	width: 5px;
+	cursor: e-resize;
+	overflow: hidden;
+	height: 100%;
+}
+
+.dj_ie6 .unieap .u-xdlg-mr {
+	margin-left: -3px;
+}
+/** 中间内容样式 **/
+.unieap .u-xdlg-mmm {
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+}
+/** 自定义内容外层样式 **/
+.unieap .u-xdlg-mmf {
+	width: 100%;
+	overflow: hidden;
+}
+/** 自定义内容样式 **/
+.unieap .u-xdlg-mmc {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+/** 按钮定义区域样式 **/
+.unieap .u-xdlg-mmb {
+	text-align: center;
+	padding-top: 7px;
+	height: 34px;
+}
+/** 底部边框样式 **/
+.unieap .u-xdlg-mb {
+	height: 5px;
+	width: 100%;
+	overflow: hidden;
+	cursor: s-resize;
+}
+/** 底部左下角边框样式 **/
+.unieap .u-xdlg-mbl {
+	height: 5px;
+	width: 5px;
+	float: left;
+	overflow: hidden;
+}
+/** 底部右下角边框样式 **/
+.unieap .u-xdlg-mbr {
+	height: 5px;
+	width: 5px;
+	float: right;
+	overflow: hidden;
+}
+/** 底部内容边框样式 **/
+.unieap .u-xdlg-mbc {
+	height: 5px;
+	overflow: hidden;
+}
+
+/**  在对话框上再次弹出对话框时，对前一对话框进行遮挡的层 **/
+.unieap .u-xdlg-modalDiv {
+	background-color: #c3daf9;
+	border: 1px solid #6593cf;
+	z-index: 999;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	filter: Alpha(Opacity = "50");
+	opacity: .50;
+}
+
+.unieap .u-xdlg-moveDiv {
+	filter: Alpha(Opacity = "50");
+	border: 1px solid #6593cf;
+	z-index: 10001;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .50;
+}
+
+.unieap .u-xdlg-bgMaskDialog-IE6 {
+	filter: Alpha(Opacity =   "0");
+	opacity: 0;
+	position: absolute;
+	z-index: 998;
+	}
+
+.unieap .u-xdlg-bgMaskDialog-IE {
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity =   "0");
+	position: absolute;
+	z-index: 998;
+	}
+	
+.unieap .u-xdlg-bgMaskDialog-notIE {
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity =   "0");
+	opacity: 0;
+	position: absolute;
+	z-index: 998;
+	} 
+
+.unieap .messageBg table td {
+	
+}
+
+.questionIcon {
+	width: 32px;
+	height: 32px;
+}
+
+.errorIcon {
+	width: 32px;
+	height: 32px;
+}
+
+.infoIcon {
+	width: 32px;
+	height: 32px;
+}
+
+.warnIcon {
+	margin-left: 2px;
+	width: 32px;
+	height: 32px;
+	width: 32px;
+}

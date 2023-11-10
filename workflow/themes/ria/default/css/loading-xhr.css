@@ -1,0 +1,21 @@
+.unieap .loadingxhr-alpha{
+	background-color:#c3daf9;
+}
+.unieap .loadingxhr-content{
+	background-color: #fff;
+}
+.unieap .loadingxhr-text{
+	font-family : tahoma, arial, helvetica, sans-serif;
+	color : #333;
+}
+.unieap .loadingxhr-img{
+	background:  url(../images/loading/loading-xhr.gif) no-repeat center center;
+}
+.unieap .loadingtab-img{
+	margin-left:5px;
+	height:12px;
+	background:  url(../images/loading/loading-tab.gif) no-repeat center center;
+}
+.unieap .loadingxhr-cancel{
+	background: url(../images/loading/progress-close.gif) no-repeat center center;
+}

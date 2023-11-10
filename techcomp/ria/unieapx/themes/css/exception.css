@@ -1,0 +1,15 @@
+.unieap .icon-error{
+  background:white url(../images/exception/icon-error.gif) no-repeat;
+  width:32px;
+  height:32px;
+  float:left;
+}
+.unieap .icon-warn{
+  background:white url(../images/exception/icon-warning.gif) no-repeat;
+  width:32px;
+  height:32px;
+  float:left;
+}
+.unieap .exception-content{
+   background-color:#c3daf9;
+}

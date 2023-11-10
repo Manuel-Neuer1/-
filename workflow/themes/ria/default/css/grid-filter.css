@@ -1,0 +1,42 @@
+.unieap .u-grid-header  .u-grid-cell .u-grid-menu{
+	background: transparent url(../images/grid/filter/group-filter01.png) no-repeat scroll left center;
+}
+
+
+
+.unieap .u-gird-menu-filtericon{
+	background-image:url(../images/grid/filter/filter_ps.gif);
+}
+
+.u-grid-filter-body{
+	background-color:#eee;
+}
+
+.unieap .u-grid-filter{
+	text-align:center;
+}
+.unieap .u-grid-filter-table{
+	margin:10px auto 10px auto;
+	width:320px;
+	border:1px #d1d1d1 solid;
+}
+.unieap .u-grid-filter-table select{
+	height:21px;
+	width:100%;
+	font-size:12px;
+}
+.unieap .u-grid-filter-table .u-menu-item-separator{
+	background-color:#d1d1d1;
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-cancel {
+    background-image: url(../images/grid/filter/cancel.gif);
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-ok {
+    background-image: url(../images/grid/filter/ok.gif);
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-del{
+	background: transparent url(../images/grid/filter/delete.gif)  no-repeat center;
+}

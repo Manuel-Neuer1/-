@@ -1,0 +1,37 @@
+
+.unieap .u-form-spinner-icon{
+	position:relative;
+	height:100%;
+	width:20px;
+	float:right;
+}
+
+.unieap .u-form-spinner-arrowup {
+	background: transparent url("../images/form/up-mousover.png") no-repeat center center;
+	background-color: #F5F5F5;
+	border: 1px solid #B6BCC2; 
+	height: 8px; 
+	width:100%;
+	overflow:hidden;
+	top:0px;
+	display:block;
+}
+
+.unieap .u-form-spinner-arrowup-down {
+	background: transparent url("../images/form/up.png") no-repeat center center;
+}
+
+.unieap .u-form-spinner-arrowdown {
+	background: transparent url("../images/form/down-mousover.png") no-repeat center center;
+	background-color: #F5F5F5;
+	border: 1px solid #B6BCC2; 
+	width: 100%; 
+	height: 8px; 
+	overflow:hidden;
+	display:block;
+	bottom:0px;
+}
+
+.unieap .u-form-spinner-arrowdown-down {
+	background: transparent url("../images/form/down.png") no-repeat center center;
+}

@@ -1,0 +1,165 @@
+/**
+ * 定义grid的toolbar的样式
+ */ 
+ 
+.u-grid-master-toolbar {
+   height: 21px !important;
+   vertical-align: middle;
+   font:12px  'Microsoft Yahei','微软雅黑',Arial,Verdana !important; 
+    padding: 0 7px;
+    border: 1px solid #dadada;
+    border-top: 0 solid #B4B4B4;
+    background: transparent url(../images/grid/bg-footer.png) repeat-x;
+}
+
+/**
+ * 第一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-first {
+    background-image: url(../images/grid/toolbar/page-first.png);
+} 
+
+.u-grid-master-toolbar .u-grid-page .u-grid-page-first-disabled {
+    background-image: url(../images/grid/toolbar/page-first-disabled.png);
+    cursor: default;
+}
+
+/**
+ * 上一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-prev {
+    background-image: url(../images/grid/toolbar/page-prev.png);
+} 
+
+.u-grid-master-toolbar .u-grid-page .u-grid-page-prev-disabled {
+    background-image: url(../images/grid/toolbar/page-prev-disabled.png);
+	cursor: default;
+}
+
+/**
+ * 下一页
+ */ .u-grid-master-toolbar .u-grid-page .u-grid-page-next {
+    background-image: url(../images/grid/toolbar/page-next.png);
+}
+.u-grid-master-toolbar .u-grid-page .u-grid-page-next-disabled {
+    background-image: url(../images/grid/toolbar/page-next-disabled.png);
+    cursor: default;
+}
+
+/**
+ * 最后一页
+ */ 
+ 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-last {
+    background-image: url(../images/grid/toolbar/page-last.png);
+} 
+.u-grid-master-toolbar .u-grid-page .u-grid-page-last-disabled {
+    background-image: url(../images/grid/toolbar/page-last-disabled.png);
+    cursor: default;
+} 
+
+
+
+
+/**
+ * 客户端导出
+ */
+.unieap .export-c {
+    background: #eee url(../images/grid/toolbar/export_c.gif) no-repeat center;
+} 
+
+/**
+ * 服务端导出
+ */
+.unieap .export-s {
+    background: #eee url(../images/grid/toolbar/export_s.gif) no-repeat center;
+} 
+
+/**
+ * 导出选中记录
+ */
+.unieap .export-checked {
+    background: #eee url(../images/grid/toolbar/export_checked.gif) no-repeat center;
+} 
+
+/**
+ * 默认客户端导出
+ */
+.unieap .default-export-c {
+    background: #eee url(../images/grid/toolbar/export_c.gif) no-repeat center;
+} 
+/**
+ * 默认服务端导出
+ */
+.unieap .default-export-s {
+    background: #eee url(../images/grid/toolbar/export_s.gif) no-repeat center;
+}
+
+.unieap .default-export-checked {
+    background: #eee url(../images/grid/toolbar/export_checked.gif) no-repeat center;
+} 
+
+/**
+ * 分隔符
+ */
+.unieap .sep {
+    background: #eee url(../images/grid/toolbar/pager_spacer.gif) no-repeat top left;
+} 
+
+/**
+ * 打印
+ */
+.unieap .u-grid-print {
+    background: #eee url(../images/grid/toolbar/print.gif) no-repeat center;
+	
+}
+
+
+
+/**
+*个性化
+*/
+
+
+
+.unieap .individual{
+	 background: #eee url(../images/grid/toolbar/table_edit.png) no-repeat center;
+}
+.unieap .individual-reset{
+	 background: #eee url(../images/grid/toolbar/table_delete.png) no-repeat center;
+}
+.unieap .default-individual {
+    background: #eee url(../images/grid/toolbar/table_edit.png) no-repeat center;
+}
+
+/*
+*工作流定制
+*/
+
+.u-grid-master-toolbar .u-grid-page.right {
+     margin-right: 28px;
+}
+.u-grid-master-toolbar .u-grid-page .ico {
+    cursor: pointer;
+    width: 12px !important;
+    height: 12px !important;
+    display: inline-block;
+}
+
+/**
+ * 页码
+ */
+.u-grid-master-toolbar .u-grid-page .u-grid-page-pageNo {
+    width: 20px;
+    height:12px;
+    font-size:12px !important;
+    margin:4px 4px 2px 4px;
+} 
+
+
+
+.u-grid-master-toolbar span{
+	font-size:12px !important;
+}

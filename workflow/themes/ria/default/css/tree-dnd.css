@@ -1,0 +1,33 @@
+/* DnD avatar-specific settings */
+.dojoDndAvatar {
+	font-size: 75%;
+	color: black;
+}
+
+.dojoDndAvatarHeader {
+	background: #ccc;
+}
+
+.dojoDndAvatarItem {
+	background: #eee;
+}
+
+.dojoDndMove .dojoDndAvatarHeader {
+	background-image: url(../images/tree/drop-no.gif);
+	background-repeat: no-repeat;
+}
+
+.dojoDndCopy .dojoDndAvatarHeader {
+	background-image: url(../images/tree/dndNoCopy.png);
+	background-repeat: no-repeat;
+}
+
+.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-image: url(../images/tree/drop-yes.gif);
+	background-repeat: no-repeat;
+}
+
+.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-image: url(../images/tree/dndCopy.png);
+	background-repeat: no-repeat;
+}

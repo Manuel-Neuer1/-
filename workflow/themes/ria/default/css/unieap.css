@@ -1,0 +1,23 @@
+@import url("common-workflow.css");
+/* form */
+@import url("form.css");
+/* grid */
+@import url("grid.css");
+/* layout */
+@import url("layout.css");
+/* tree */
+@import url("tree.css");
+/* xgrid */
+@import url("xgrid.css");
+/* others */
+@import url("dialog.css");
+@import url("menu.css");
+@import url("menubar.css");
+@import url("tooltip.css");
+@import url("loading.css");
+@import url("loading-xhr.css");
+@import url("progressbar.css");
+@import url("ipaddress.css");
+@import url("xdialog.css");
+@import url("style-workflow.css");
+@import url("custom.css");

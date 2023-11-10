@@ -1,0 +1,161 @@
+/**
+*@widget：
+*		{unieap.form.Popup}
+*@summary：
+*		定义所有弹出容器,即Popup的样式
+*/
+.unieap .u-popupcontainer{
+	background:#f7f7f7;
+}
+
+/**
+*@widget：
+ *		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义组件里层的容器的样式，设定边框、高度等样式
+*/
+.unieap .u-form-field{
+	background-color : #FFF;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义Form组件的修改标识信息，通过float定位在容器的最左边
+*/
+.unieap .u-form-modified{
+	background : transparent url("../images/form/modified.gif") no-repeat;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义Form组件的错误信息，在组件最右边显示(可以覆盖必填信息)
+*/
+.unieap .u-form-error{
+	background : transparent url("../images/form/error.gif") no-repeat;
+}
+
+/**
+*@widget：
+	{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+	定义所有输入域的样式，去掉边框和内边距并设置宽度为100%
+*/
+.unieap .u-form-textbox-input{
+}
+
+/**
+*@widget：
+	{unieap.form.TextBox}
+*@summary：
+	定义所有输入域必填样式，以适应修改dialog'穿透'的缺陷
+*/
+.unieap .u-form-textbox-input-required{
+}
+
+/**
+*@widget：
+	{unieap.form.TextBox}
+*@summary：
+	定义所有输入域只读样式，以适应修改dialog'穿透'的缺陷
+*/
+.unieap .u-form-textbox-input-readonly{
+		background-color : #f6f6f6 !important;
+}
+
+/**
+*@widget：
+	{unieap.form.TextBox}
+*@summary：
+	定义所有输入域禁用样式，以适应修改dialog'穿透'的缺陷
+*/
+.unieap .u-form-textbox-input-disabled{
+		background-color : #f0f0f0 !important;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox}
+*@summary：
+*		定义所有文本输入框不可用的样式，为浅灰色优先级最高	
+*/
+.unieap .u-form-disabled{
+	background-color : #f0f0f0 !important;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox}
+*@summary：
+*		定义所有文本输入框只读的样式
+*/
+.unieap .u-form-readOnly{
+	background-color : #f6f6f6;
+}
+
+/**
+*@widget：
+*		{unieap.form.TextBox,unieap.form.TextBoxWithIcon}
+*@summary：
+*		定义所有文本输入框外层容器的错误信息样式，目前使其边框变红	
+*/
+.unieap .u-form-textbox-error{
+	border : 1px solid #dd7870;	
+}
+
+.dj_ie6 .u-form-textarea-input {
+	margin-top:-1px;	
+}
+
+.unieap .u-form-textbox-icon-normal {
+	background:url("../images/form/find.gif") no-repeat;
+}
+
+.unieap .u-form-textbox-icon-disabled {
+	background:url("../images/form/find-disable.gif") no-repeat;
+}
+
+.unieap .u-form-combobox-icon-normal {
+	background:url("../images/form/icon.gif") no-repeat;
+}
+
+.unieap .u-form-combobox-icon-disabled {
+	background:url("../images/form/disabled-icon.gif") no-repeat;
+}
+
+
+/**
+*@widget：
+*		unieap.form.FileInput
+*@summary：
+*		定义文件上传的浏览按钮和取消按钮样式，通过float定位在外层容器右边。用户可以自定义按钮大小和背景样式	
+*/
+.unieap .u-form-file-btn{
+	background:#ddd url(../images/form/button-bg.gif) repeat-x;
+}
+.unieap .u-form-file-required{
+	color : red
+}
+
+
+
+/**
+*工作流定制
+*/
+.unieap .searchBox .u-form-textbox-icon{
+	border-left:0;
+    width: 16px;
+	float:left !important;
+	margin-left:4px;
+}
+
+.unieap .column-filter .u-form-readOnly{
+	background-color:#ffffff !important;
+}
+
+.unieap .column-filter .u-form-textbox-input-readonly{
+	background-color:#ffffff !important;
+}

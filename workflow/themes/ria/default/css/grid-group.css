@@ -1,0 +1,48 @@
+/**
+ * 分组功能
+ */
+.unieap .u-grid-group{
+	border-bottom: solid 1px #7f9db9;
+}
+.unieap .u-grid-group-minus{
+	background: url(../images/grid/group/minus.gif);
+}
+.unieap .u-grid-group-plus{
+	background: url(../images/grid/group/plus.gif);
+}
+.unieap .u-grid-group-font{
+	font: bold 11px tahoma,arial,helvetica,sans-serif;
+	color: #7f9db9;
+}
+.unieap .u-grid-group-node{
+	background-color:#fff;
+}
+
+
+.unieap .u-grid-group-btnNormal{
+	background: url(../images/grid/group/refresh_hover.gif);
+}
+.unieap .u-grid-group-dragProxy{
+	border: 1px dashed #000;
+	background: #eee;
+}
+.unieap .u-grid-group-arrow{
+	border: 1px boder #000;
+}
+.unieap .u-grid-group-arrow-top{
+	background: url(../images/grid/group/group-arrow-top.gif);
+}
+.unieap .u-grid-group-arrow-bottom{
+	background: url(../images/grid/group/group-arrow-bottom.gif);
+}
+.unieap .u-grid-group-cell{
+	background: url(../images/grid/group/group-headerbg.png) #ebebeb repeat-x;
+	border: 1px solid #d1d2d2;
+}
+
+.unieap .u-grid-group-cellremove{
+	background: url(../images/grid/group/group-headerclose.png) no-repeat;
+}
+.unieap .u-grid-group-sep{
+	background: url(../images/grid/group/line.gif) no-repeat;
+}

@@ -1,0 +1,249 @@
+/*@import url("../form/button/button.css");*/
+/** 对话框外层容器样式 **/
+.unieap .u-dlg table {font-size:12px; }
+.unieap .u-dlg{
+	background-color:#FFF;
+	position:absolute;
+	z-index: 1001;
+}
+/** 头部样式 **/
+.unieap .u-dlg-mt{
+	height:23px;
+	width:100%;
+	overflow:hidden;
+	background : url("../images/dialog/mt.png") repeat-x ;	
+}
+/** 头部左上角样式 **/
+.unieap .u-dlg-mtl{
+	height:23px;
+	width:5px;
+	overflow:hidden;
+	float:left;
+	background : url("../images/dialog/mtl.png") repeat-x ;	
+}
+/** 头部右上角样式 **/
+.unieap .u-dlg-mtr{
+	height:23px;
+	width:5px;
+	overflow:hidden;
+	float:right;
+	background : url("../images/dialog/mtr.png") repeat-x ;	
+}
+/** 头部内容样式 **/
+.unieap .u-dlg-mtc{
+	height:23px;
+	cursor:default;
+	overflow:hidden;
+}
+/** 头部文字区域样式 **/
+.unieap .u-dlg-mtt{
+	height:23px;
+	overflow:hidden;
+	font-size: 12px ;
+	font-weight: bold;
+	float:left;
+	color : #FFF;
+	cursor:default;
+	padding-left:5px;
+	line-height:23px;
+}
+/** 头部按钮区域样式 **/
+.unieap .u-dlg-mtb{
+	height:23px;
+	float:right;
+	cursor:default;
+	line-height:23px;
+	width: 33px;
+	overflow:hidden;
+}
+/** 头部放大按钮样式 **/
+.unieap .u-dlg-mtb .u-dlg-be{
+	float:left;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/dialog/be.gif") no-repeat ;
+}
+/** 头部缩小按钮样式 **/
+.unieap .u-dlg-mtb .u-dlg-bs{
+	float:left;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/dialog/bs.gif") no-repeat ;
+}
+/** 头部关闭按钮样式 **/
+.unieap .u-dlg-mtb .u-dlg-bc{
+	float:right;
+	margin-top:4px;
+	width: 15px;
+	height: 14px;
+	overflow:hidden;
+	cursor:pointer;
+	background : transparent url("../images/dialog/bc.gif") no-repeat ;
+}
+/** 内容区域样式 **/
+.unieap .u-dlg-mm{
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+/** 左边框样式 **/
+.unieap .u-dlg-ml{
+	float:left;
+	width: 5px;	
+	overflow:hidden;
+	height:100%;
+	background : url("../images/dialog/ml.png") repeat-y ;
+}
+.dj_ie6 .unieap .u-dlg-ml{
+	margin-right:-3px;
+}
+/** 右边框样式 **/
+.unieap .u-dlg-mr{
+	float:right;
+	width: 5px;
+	cursor:e-resize;
+	overflow:hidden;
+	height:100%;
+	background : url("../images/dialog/mr.png") repeat-y ;	
+}
+.dj_ie6 .unieap .u-dlg-mr{
+	margin-left:-3px;
+}
+/** 中间内容样式 **/
+.unieap .u-dlg-mmm{
+	width :auto;
+	height : 100%;
+	overflow : hidden;
+}
+/** 自定义内容外层样式 **/
+.unieap .u-dlg-mmf{
+	width:100%;
+	overflow:hidden;
+}
+/** 自定义内容样式 **/
+.unieap .u-dlg-mmc{
+	width:100%;
+	height:100%;
+	overflow:auto;
+	font-size : 12px;
+	position:relative;
+}
+/** 按钮定义区域样式 **/
+.unieap .u-dlg-mmb{
+	text-align:center;	
+	font-size:12px;
+	padding-left:5px;
+	padding-top:5px;
+    padding-right:5px;
+    height:34px;
+    background:transparent url(../images/dialog/bottom-bg.jpg) repeat-x;
+}
+/** 底部边框样式 **/
+.unieap .u-dlg-mb{
+	height:5px;
+	width: 100%;
+	overflow:hidden;
+	cursor:s-resize;
+	background : url("../images/dialog/mb.png") repeat-x ;	
+}
+/** 底部左下角边框样式 **/
+.unieap .u-dlg-mbl{
+	height:5px;
+	width: 5px;
+	float:left;
+	overflow:hidden;
+	background : url("../images/dialog/mbl.png") no-repeat ;	
+}
+/** 底部右下角边框样式 **/
+.unieap .u-dlg-mbr{
+	height:5px;
+	width: 5px;
+	float:right;
+	cursor:se-resize;
+	overflow:hidden;
+	z-index:100;
+	background : url("../images/dialog/mbr.png") no-repeat ;	
+}
+
+.unieap .u-dlg-backgroundIframe{
+		border:0px;
+		position:absolute;
+		z-index:-2;
+}
+
+/**  在对话框上再次弹出对话框时，对前一对话框进行遮挡的层 **/
+.unieap .u-dlg-modalDiv{
+   background-color:#c3daf9;
+   border:1px solid #6593cf;
+   z-index:1001;
+   overflow:hidden;
+   position:absolute;
+   left:0;
+   top:0;
+   filter:Alpha(Opacity="50");
+    opacity:.50;
+}
+
+.unieap .unieap-dlg-BackgroundIframe {
+	position: absolute;
+	z-index: 1000;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.unieap  .unieap-dlg-contentIframe{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding-top: 0;
+	padding-right: 0;
+	margin: 0;
+}
+.unieap .u-dlg-moveDiv{
+   background-color:#c3daf9;
+   filter:Alpha(Opacity="50");
+   border:1px solid #6593cf;
+   z-index:10001;
+   overflow:hidden;
+   position:absolute;
+   left:0;
+  top:0;
+  opacity:.50;
+}
+.unieap .messageBg table td{
+      font-family:宋体;
+      font-size:12px;
+}
+.questionIcon {
+width:32px;
+height:32px;
+background:url(../images/dialog/icon-question.gif) center center no-repeat
+}
+
+.errorIcon {
+width:32px;
+height:32px;
+background:url(../images/dialog/icon-error.gif) center center no-repeat
+}
+
+.infoIcon {
+width:32px;
+height:32px;
+background:url(../images/dialog/icon-info.gif) center center no-repeat
+}
+
+.warnIcon {
+width:32px;
+height:32px;
+background:url(../images/dialog/icon-warning.gif) center center no-repeat
+}

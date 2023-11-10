@@ -1,0 +1,30 @@
+.unieap .u-form-ip-container{
+	heigh:20px;
+	line-height:20px;
+	border:solid 1px;
+	display:inline-block;
+}
+
+.unieap .u-form-ip-child{
+	width:20px;
+	border:none;
+	margin-left:4px;
+	margin-right:4px;
+	text-align: center;
+	border: 0;
+}
+
+.unieap .u-form-ip-dotchild{
+	display:inline; 
+	width:3px; 
+	overflow:hidden;
+}
+
+.unieap .u-form-ip-container .u-form-ip-firstchild{
+	margin-left:8px;
+}
+
+.unieap .u-form-ip-container .u-form-ip-forthchild{
+	margin-right:7px;
+}
+

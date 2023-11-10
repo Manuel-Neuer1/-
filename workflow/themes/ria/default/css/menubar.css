@@ -1,0 +1,47 @@
+.unieap .menuBar {
+  border: 1px solid #b5bcc7;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  /*background-image: url("../images/menu/commonHighlight.png");*/
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+.dj_ie6 .unieap .menuBar {
+  background-image: none;
+}
+.unieap .menuBar .menuBarItem {
+  padding: 6px 10px 7px;
+  background-position: 0 100px;
+  color: #4a4a4a;
+  margin: -1px;
+  text-align: center;
+}
+.unieap .menuBarItem {
+  /*background-image: url("../images/menu/menuHighlight.png");*/
+  background-position: 0 -40px;
+  background-repeat: repeat-x;
+}
+
+.unieap .menuBar .menuBarItemHover, .unieap .menuBar .menuBarItemSelected {
+  background-color: #abd6ff;
+  border: solid 1px #769dc0;
+  background-position: 0 0;
+  color: #000000;
+  padding: 5px 9px 6px;
+}
+.unieap .menuBar .menuBarItemActive {
+  background-position: 0 -177px;
+}
+.dj_ie6 .unieap .menuBarItem, .dj_ie6 .unieap .menuBar .menuBarItem {
+  background-image: none;
+}
+
+.dj_ie .unieap .dijitMenuActive .menuBarItemHover,
+.dj_ie .unieap .dijitMenuActive .menuBarItemSelected,
+.dj_ie .unieap .menuBar .menuBarItemHover,
+.dj_ie .unieap .menuBar .menuBarItemSelected {
+  padding-top: 6px;
+  padding-bottom: 5px;
+  margin-top: -3px;
+}

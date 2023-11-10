@@ -1,0 +1,64 @@
+.unieap .u-combobox-list {
+	border: 1px solid #989898;
+	z-index: 10001;
+	position: absolute;
+	display: block;
+	outline: none;
+	text-decoration: none;
+	left: -1000px;
+	top: -1000px;
+}
+
+.unieap .u-combobox-items-container {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.unieap .u-combobox-item {
+	width: 100%;
+	cursor: pointer;
+	height: 22px
+}
+
+.unieap .u-combobox-item .match {
+	
+}
+
+.unieap .u-combobox-list-header {
+	width: 100%;
+}
+
+.unieap .u-combobox-list-header table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+.unieap .u-combobox-list-header table th {
+	border-bottom: 1px solid #989898;
+	text-align: center;
+	padding: .2em;
+	white-space: nowrap;
+}
+
+.unieap .u-combobox-items-container table {
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+
+.unieap .u-combobox-items-container table td {
+	padding-left: 7px;
+}
+
+.unieap .u-combobox-readonly {
+	cursor: normal
+}
+
+.unieap .u-combobox-items-container .u-comobobox-item-hover {
+}
+
+.unieap .u-combobox-modified,.unieap .u-combobox-require {
+	display: block
+}

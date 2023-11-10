@@ -1,0 +1,40 @@
+.unieap .u-xgird-menu-filtericon{
+	background-image:url(../images/xgrid/filter/filter_ps.gif);
+}
+
+.unieap .u-xgrid-filter-cell{
+	font-weight:bold;
+}
+
+.u-xgrid-filter-body{
+	background-color:#eee;
+}
+
+.unieap .u-xgrid-filter{
+	text-align:center;
+}
+.unieap .u-xgrid-filter-table{
+	margin:10px auto 10px auto;
+	width:320px;
+	border:1px #d1d1d1 solid;
+}
+.unieap .u-xgrid-filter-table select{
+	height:21px;
+	width:100%;
+	font-size:12px;
+}
+.unieap .u-xgrid-filter-table .u-menu-item-separator{
+	background-color:#d1d1d1;
+}
+
+.unieap .u-xgrid-filter-table .u-xgrid-filter-cancel {
+    background-image: url(../images/xgrid/filter/cancel.gif);
+}
+
+.unieap .u-xgrid-filter-table .u-xgrid-filter-ok {
+    background-image: url(../images/xgrid/filter/ok.gif);
+}
+
+.unieap .u-xgrid-filter-table .u-xgrid-filter-del{
+	background: transparent url(../images/xgrid/filter/delete.gif)  no-repeat center;
+}

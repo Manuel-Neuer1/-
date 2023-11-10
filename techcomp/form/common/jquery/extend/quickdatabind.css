@@ -1,0 +1,68 @@
+#quick_databind,#preset_resource,#quick_databind_outline{
+	width:100%!important;
+	height:100%!important;
+	overflow: visible!important;
+	border:0px;
+	background:transparent;
+}
+
+	
+.ztree li a{
+	color:#717171 !important;
+	display: inline-block !important;
+    background: transparent !important;
+    height:21px;
+    width:100%;
+	}
+
+.ztree li span.button{
+	margin-bottom:4px;
+}
+
+.ztree li span.switch{
+	margin-bottom:0px;
+	margin-top:2px;
+}
+	
+.ztree li a.curSelectedNode{
+	  width:100%;
+      height:21px;
+      background:#509ad9 !important;;
+      color:#fafafa !important;
+	  border: 0px !important;
+	}
+	
+.ui-layout-resizer-west-open{
+	left:199px !important;
+	width:1px !important;
+	}
+.ui-layout-resizer-west-closed{
+	background:rgba(50,50,50,0.1) !important;
+	width:7px !important;
+	}
+.dataBindTitle{
+	background-color: #eaeaea;
+	height: 42px;
+	line-height: 42px;
+	text-align: left;
+	border-bottom:1px solid transparent;
+	padding-left:8px;
+	color:#717171;
+	font-size:16px;
+}
+.cke_contents .ui-layout-east, .cke_contents .ui-layout-west{
+	padding: 0px!important;
+	margin: 0px!important;
+    border: 1px solid #B4BCBF !important;
+}
+
+.cke_contents .ui-layout-center{
+	padding:0px !important;
+	border:1px solid #b4bcbf !important;
+}
+	
+.ui-layout-mask{
+	background: gray !important;
+	opacity: .10 !important;
+	filter: alpha(opacity=10) !important;
+}

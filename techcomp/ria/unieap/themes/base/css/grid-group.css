@@ -1,0 +1,95 @@
+/**
+ * 分组功能 base
+ */
+.unieap .u-grid-group{
+	zoom: 100%;
+}
+.unieap .u-grid-group-minus{
+	width:16px;
+	height: 16px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.unieap .u-grid-group-plus{
+	width: 16px;
+	height: 16px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.unieap .u-grid-group-font{
+}
+.unieap .u-grid-group-node{
+	width:100%;
+	position:relative;
+	padding-left: 2px;
+	height: 23px;
+	display: inline-block;
+}
+.dj_iequirks .unieap .u-grid-group-node{
+	height: 23px;
+}
+.unieap .u-grid-group-btn{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	width: 19px;
+	height: 19px;
+	overflow: hidden;
+	cursor: default;
+}
+.unieap .u-grid-group-btnNormal{
+}
+.unieap .u-grid-group-dragProxy{
+	position: absolute;
+	cursor: move;
+	padding-left: 5px;
+}
+.unieap .u-grid-group-arrow{
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+.unieap .u-grid-group-arrow-top{
+	top: 0px;
+}
+.unieap .u-grid-group-arrow-bottom{
+	bottom: 0px;
+}
+.unieap .u-grid-group-cell{
+	height: 19px;
+	margin: 1px 0px 0px 0px;
+	font-family: Verdana;
+	font-weight: bold;
+	width: 90px;
+	cursor: default;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	line-height: 19px;
+	position: relative;
+	overflow: hidden;
+}
+.dj_iequirks .unieap .u-grid-group-cell{
+	height: 21px;
+	line-height: 21px;
+}
+.unieap .u-grid-group-cellremove{
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	top: 1px;
+	right: 1px;
+}
+.unieap .u-grid-group-sep{
+	height: 20px;
+	width: 10px;
+	background: url(../images/grid/group/line.gif) no-repeat;
+	background-position: center;
+	margin: 0px 1px 6px 1px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}

@@ -1,0 +1,143 @@
+div.ui-jqgrid-hdiv div{
+	text-align:center!important;
+}
+/*弹出 START*/
+div.ui-corner-all, tr.ui-widget-content{
+	border: 1px solid #dedede;
+}
+.ui-jqdialog-content, .ui-jqdialog .ui-jqdialog-content {
+    padding: 0;
+    background: #fff;
+}
+.ui-jqdialog-content, .ui-jqdialog .ui-jqdialog-content .FormGrid{
+	padding: 10px;
+}
+.ui-jqdialog-content .CaptionTD {
+    text-align: right;
+    width: 40%;
+}
+.ui-jqdialog-content .EditTable hr.ui-widget-content{
+	border:none;
+	border-bottom: 1px solid #dedede;
+	}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	
+}
+.ui-jqdialog{padding:0;}
+.ui-jqdialog-content .CaptionTD{color:#666;}
+
+/*弹出 END*/
+.ui-jqgrid tr.ui-row-ltr td {
+	border-right-width: 1px!important;
+	border-right-color: #ddd !important;
+	border-right-style: solid!important;
+}
+.ui-jqgrid tr.jqgrow td {
+	border-bottom-width: 1px!important;
+	border-bottom-color: #ddd !important;
+	border-bottom-style: solid!important;
+	background: ransparent;
+}
+.ui-jqgrid .selected-row, div.ui-jqgrid .selected-row td input{border:none;background:transparent;padding:0 10px;}
+div.ui-jqgrid-bdiv tr{
+	border-top: 0 none!important;
+}
+.ui-jqgrid-btable td, .ui-jqgrid-htable th{
+	vertical-align: middle;
+}
+/* liu-miao 解决grid表头名称过长时，添加记录显示问题 start */
+.ui-jqdialog-content .EditTable { table-layout:fixed;}
+.ui-jqdialog-content .CaptionTD { text-overflow:ellipsis; overflow:hidden;}
+/* liu-miao 解决grid表头名称过长时，添加记录显示问题 end */
+div.ui-jqgrid-bdiv .ui-widget-content td font.tit-box{display:none;}
+div.ui-jqgrid-bdiv .ui-widget-content td >span{width:100%;display: block;}
+@media only screen and (max-width: 767px){
+.ui-jqdialog{width:auto!important;}
+/*grid移动端自适应 REN.JQ START*/
+.ui-jqgrid-hdiv{display:none;}
+.ui-widget-content .ui-jqgrid-view,
+.ui-widget-content .ui-jqgrid-view .ui-jqgrid-bdiv,
+.ui-widget-content .ui-jqgrid-view .ui-jqgrid-bdiv .ui-jqgrid-btable,
+.ui-widget-content .ui-jqgrid-view .ui-jqgrid-bdiv .ui-jqgrid-btable >tbody{
+	float: left;
+    width: 100%;
+	background: none;
+}
+.ui-jqgrid.ui-widget.ui-widget-content .ui-jqgrid-bdiv{border:none!important;}
+.ui-jqgrid.ui-widget.ui-widget-content.ui-corner-all{border:none;}
+div.ui-jqgrid-bdiv .ui-widget-content {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #dedede;
+}
+div.ui-jqgrid-bdiv .ui-widget-content td {
+    float: left;
+    width: 100%!important;
+    height: 44px;
+	text-align: left !important;
+	padding: 0 !important;
+}
+div.ui-jqgrid-bdiv .ui-widget-content td >font.tit-box{
+	display:block;
+	width:40%;
+	float:left;
+	padding:10px 15px;
+	box-sizing:border-box;
+	line-height:24px;
+	text-align: right !important;
+	border-right: 1px solid #dedede;
+    background-color: #f8f8f8;
+	min-height:44px;
+}
+div.ui-jqgrid-bdiv .ui-widget-content td >span{
+	display:block;
+	width:60%;
+	float:left;
+	padding:10px 15px;
+	box-sizing:border-box;
+	line-height:24px;
+	text-align: left !important;
+}
+div.ui-jqgrid-bdiv .ui-widget-content td:first-child {
+    float: left;
+    width: 100%!important;
+    height: 40px;
+	border-top:1px solid #ddd;
+}
+.ui-jqgrid-pager .ui-pager-control >table >tbody >tr >td:nth-child(1){
+    float: left;
+    width: 100%!important;
+    border-bottom: 1px solid #dedede;
+}
+.ui-jqgrid-pager .ui-pager-control >table >tbody >tr >td:nth-child(2){
+	float: left;
+    width: 40%!important;	
+}
+.ui-jqgrid-pager .ui-pager-control >table >tbody >tr >td:nth-child(3){
+	float: right;
+    width: 60%!important;
+}
+.ui-jqgrid .ui-jqgrid-pager{
+	height:auto;
+	float:left;
+	width:100%;
+}
+.ui-jqgrid .ui-jqgrid-pager .ui-pager-control >table {
+	float:left;
+	border:1px solid #dedede;
+	border-top:none;
+	border-right:none;
+}
+.ui-jqgrid .selected-row, div.ui-jqgrid .selected-row td input{
+	padding:0;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+	border: none;
+	background-color:#f8f8f8;
+}
+/*grid移动端自适应 REN.JQ END*/
+}

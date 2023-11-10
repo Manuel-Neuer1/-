@@ -1,0 +1,124 @@
+.unieap .dijitTreeContainer  table {
+	font-size: 12px;
+	height:20px !important;
+}
+
+.unieap .treeCheckBoxReadOnly {
+	background-position: -48px;
+	/* disabled but checked */
+	/*background-position: -32px;*/
+}
+
+.unieap .treeLabelDisabled {
+	color: #a7a6aa;
+}
+
+.unieap .dijitTreeContainer {
+	font: normal normal normal 12px verdana;
+	font-family:微软雅黑;
+}
+
+.unieap .dijitTreeNode {
+	background-image: url('../images/tree/i.gif');
+	color: #000000;
+}
+
+/* left vertical line (grid) for all nodes */
+.unieap .dijitTreeIsLast {
+	background: url('../images/tree/i_half.gif') no-repeat;
+}
+
+.unieap .dijitTreeIsRoot {
+	margin-left: 0;
+	background-image: none;
+}
+
+/* same style as IE selection */
+.unieap .dijitTreeNodeEmphasized {
+	background-color: Highlight;
+	color: HighlightText;
+}
+
+.unieap .dijitTreeLabelFocused { /*
+	background:url(../images/tree/treebg-on.gif);
+	background-position:0px 19px;
+	color:#959595;
+	border-color:#bfd8d7;
+	border-left:solid #bfd8d7 1px;
+	border-right:solid #bfd8d7 1px;
+	hidefocus:true;	
+	*/
+	background-color: #d8e8fb;
+}
+
+.unieap .unieapTreeMouseOver { /*
+	background:url(../images/tree/treebg-hover.gif);
+	background-position:0px 19px;
+	border-left: solid #ccd5da 1px;
+	border-right:solid #ccd5da  1px;
+	*/
+	background-color: #eee;
+}
+
+.unieap .dijitTreeExpandoOpened {
+	background: url('../images/tree/treeExpand_minus.gif') no-repeat;
+}
+
+.unieap .dijitTreeExpandoClosed {
+	background: url('../images/tree/treeExpand_plus.gif') no-repeat;
+}
+
+.unieap .dijitTreeExpandoLeaf {
+	background: url('../images/tree/treeExpand_leaf.gif') no-repeat;
+}
+
+.unieap .dijitTreeExpandoLoading {
+	background: url('../images/tree/treeExpand_loading.gif') no-repeat;
+}
+
+.unieap .dijitTreeIcon {
+	width: 16px;
+}
+
+.unieap .dijitFolderOpened {
+	background: url('../images/tree/folderOpened.gif') no-repeat;
+}
+
+.unieap .dijitFolderClosed {
+	background: url('../images/tree/folderClosed.gif') no-repeat;
+}
+
+.unieap .dijitLeaf {
+	background: url('../images/tree/leaf.gif') no-repeat;
+}
+
+.dijitCheckBox { /* inside a toggle button */
+	background-image: url('../images/tree/spriteCheckbox.gif');
+	/* checkbox sprite image */
+}
+
+/**
+*Workflow 设置
+**/
+/**
+ 去除树节点两边的border
+*/
+.unieap .treeRenderNode{
+	border:0px !important;
+	width:100% !important;
+}
+
+/**
+去掉树打开关闭的图标+-
+*/
+.unieap .dijitTreeExpandoClosed {
+	background: none !important;
+}
+
+.unieap .dijitTreeExpandoOpened {
+    background: none !important;
+}
+
+.unieap .dijitTreeNode{
+	margin-top:4px !important;
+}

@@ -1,0 +1,10 @@
+.claro .dijitButtonText {
+  padding: 0 0.3em;
+  text-align: center;
+  font-size: 14px;
+  font-weight :bold;
+}
+.claro .dijitToolbar {
+  background-color: #2342AB !important;
+  color: white;
+}

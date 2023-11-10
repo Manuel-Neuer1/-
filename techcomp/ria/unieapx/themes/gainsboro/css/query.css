@@ -1,0 +1,132 @@
+.unieap .query-add {
+	background: url(../images/query/_addnew.png) no-repeat;
+	width: 16px;
+	height: 19px;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-save {
+	background: url(../images/query/_save.png) no-repeat;
+	width: 15px;
+	height: 15px;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-delete {
+	background: url(../images/query/_delete.png) no-repeat;
+	width: 16px;
+	height: 19px;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-conDelete {
+	background: url(../images/query/delete.png) no-repeat;
+	width: 16px;
+	height: 19px;
+	float: left;
+	align:left;
+	cursor: pointer;
+}
+
+.unieap .query-delete-disabled {
+	background: white url(../images/query/_delete_disabled.png) no-repeat;
+	width: 16px;
+	height: 19px;
+	float: left;
+}
+
+.unieap .query-editor {
+	background: url(../images/query/_modify.png) no-repeat;
+	width: 16px;
+	height: 19px;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .find-icon {
+	width: 16px;
+	height: 19px;
+	background: url(../images/query/_search.png) no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-edit {
+	width: 16px;
+	height: 19px;
+	background: url("../images/query/_modify.png") no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-close {
+	width: 16px;
+	height: 19px;
+	background: url("../images/query/_close.png") no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .query-clear {
+	width: 16px;
+	height: 19px;
+	background: url("../images/query/_clear.png") no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+.unieap .table_layout {
+	table-layout: fixed;
+	width: 99%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.unieap .table_layout .tr {
+	height: 26px;
+}
+
+.unieap .query_buttons {
+	text-align: right;
+}
+
+.unieap .query_buttons .u-form-btn-outer {
+	margin-left: 5px;
+}
+
+.unieap .query_buttons .u-form-btn {
+	text-align: center;
+	width: 60px;
+}
+
+.unieap .query_table {
+	table-layout: fixed;
+	width: 100%;
+	position: relative;
+}
+
+.unieap .query_table_form_mode {
+	width: 100%;
+}
+
+.unieap .query_table_label {
+	text-align: right;
+}
+.unieap .queryMenuTop {
+	right:0px;
+	width:17px;
+	height:19px;
+	background-image: url("../images/menuMore.png");
+	float:right;
+	margin-top: 3px;
+	cursor:pointer;
+	z-index:100;
+}
+.unieap .tabward{
+	position: absolute;
+	z-index:100;
+	cursor:pointer;
+}

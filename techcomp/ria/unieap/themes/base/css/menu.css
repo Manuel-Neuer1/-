@@ -1,0 +1,99 @@
+/**
+ * Menu的基本样式
+ */
+.unieap .dijitPopup {
+	position: absolute;
+	background-color: transparent;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.unieap .dijitBackgroundIframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.unieap .u-menu-table{
+	border:1px solid #7f9db9;
+	margin:0;
+	width : 150px;
+	font:12px Verdana;	
+	table-layout:fixed;
+}
+.unieap .u-menu-item{
+	padding:1px 2px 1px 2px;	
+	height: 21px;
+	cursor : default;
+}
+	
+.unieap .u-menu-itemHover{
+}
+.unieap .u-menu-itemDisabled{
+}
+.unieap .u-menu-separator{
+	overflow:hidden;
+	height:2px;
+	vertical-align : middle;
+}
+.unieap .u-menu-separator .left{
+	padding-left:4px;
+	width:20px;
+}
+.unieap .u-menu-separator .middle{
+	padding :0px;
+}
+.unieap .u-menu-separator .right{
+	padding-right:4px;
+	width:20px;
+}
+.unieap .u-menu-item-separator{
+	overflow:hidden;
+	height:1px;
+	width:100%;
+}
+.unieap .u-menu-itemLeft{
+	width:20px;
+	overflow:hidden;
+}
+.unieap .u-menu-itemLeft div {
+	width: 16px;
+	height: 16px;
+	margin-left:2px;
+
+}
+.unieap .u-menu-itemLabel{
+	position : relative;
+	padding : 5px 0px 1px 2px;
+}
+.unieap .u-menu-itemLabel nobr{
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.unieap .u-menu-itemRight{
+	width:20px;
+	margin:0;
+}
+.unieap .u-menu-expand{
+	height : 16px;
+	width: 16px;
+}
+.unieap .u-menu-dateIcon{
+}
+.unieap .u-menu-expandEnabled{
+} 
+.dj_ie6 .unieap .u-menu-expandEnabled {
+}
+.unieap .u-menu-expandDisabled{
+} 
+.dj_ie6 .unieap .u-menu-expandDisabled {
+}

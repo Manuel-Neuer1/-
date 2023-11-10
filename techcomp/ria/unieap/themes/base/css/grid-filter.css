@@ -1,0 +1,66 @@
+.unieap .u-grid-header  .u-grid-cell .u-grid-menu{
+    right: 1px;
+    top: 0px;
+    width: 14px;
+    height: 20px;
+    visibility: hidden;
+}
+
+.unieap .u-grid-header .u-grid-filter-cell{
+	font-weight:bold;
+}
+
+.unieap .u-gird-menu-filtericon{
+}
+.unieap .u-grid-header	.u-grid-header-cell {
+	height:20px;
+    width: 100%;
+	display:block;
+	overflow:hidden;
+	text-overflow:ellipsis;
+} 
+.u-grid-filter-body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.unieap .u-grid-filter{
+	text-align:center;
+}
+.unieap .u-grid-filter-table{
+	margin:10px auto 10px auto;
+	width:320px;
+	border:1px #d1d1d1 solid;
+}
+.unieap .u-grid-filter-table select{
+	height:21px;
+	width:100%;
+	font-size:12px;
+}
+.unieap .u-grid-filter-table .u-menu-item-separator{
+	width:100%;
+	height:1px;
+	display:block;
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-cancel {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-bottom: 2px;
+	cursor:pointer;
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-ok {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-bottom: 2px;
+	cursor:pointer;
+}
+
+.unieap .u-grid-filter-table .u-grid-filter-del{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+}

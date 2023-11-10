@@ -1,0 +1,20 @@
+.dojoDndAvatarHeader td {
+	padding-left: 20px;
+	padding-right: 4px;
+}
+
+.dojoDndMove .dojoDndAvatarHeader {
+	background-repeat: no-repeat;
+}
+
+.dojoDndCopy .dojoDndAvatarHeader {
+	background-repeat: no-repeat;
+}
+
+.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-repeat: no-repeat;
+}
+
+.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-repeat: no-repeat;
+}
